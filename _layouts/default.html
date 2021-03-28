@@ -1,31 +1,51 @@
 ---
 layout: compress
+# Default layout
 ---
 
-{% include base_path %}
+<!DOCTYPE html>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+{% capture prefer_mode %}
+  {% if site.theme_mode %}
+    mode="{{ site.theme_mode }}"
+  {% endif %}
+{% endcapture %}
 
-  <body>
+<html lang="{{ site.lang | default: "en-US" }}" {{ prefer_mode }}>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  {% include head.html %}
 
-    {{ content }}
+  <body data-spy="scroll" data-target="#toc">
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
+    {% include sidebar.html %}
+
+    {% include topbar.html %}
+
+    <div id="main-wrapper">
+      <div id="main">
+
+        {% include refactor-content.html content=content %}
+
         {% include footer.html %}
-      </footer>
-    </div>
 
-    {% include scripts.html %}
+      </div>
+
+      {% include search-results.html %}
+
+    </div> <!-- #main-wrapper -->
+
+    {% if page.mermaid %}
+      {% include mermaid.html %}
+    {% endif %}
+
+    <div id="mask"></div>
+
+    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    {% include search-loader.html %}
 
   </body>
+
 </html>
