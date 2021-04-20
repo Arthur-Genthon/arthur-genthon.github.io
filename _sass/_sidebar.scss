@@ -65,6 +65,7 @@
   }
 }
 
+
 /*
    Author profile and links
    ========================================================================== */
@@ -88,7 +89,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      /* border: 1px solid var(--border-color); */  /* uncomment for border around picture */
     }
   }
 }
@@ -117,6 +118,7 @@
   }
 }
 .sidebar .author__name {
+  display:none;              /* comment this line to display name below avatar in sidebar */
   font-family: $sans-serif;
   font-size: $type-size-5;
 }
@@ -165,7 +167,7 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
   border-radius: $border-radius;
   background: #fff;
   z-index: -1;
@@ -191,7 +193,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $border-color transparent;
+    border-color: var(--border-color) transparent;
     z-index: 0;
 
     @include breakpoint($large) {
@@ -227,7 +229,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-4;    /* size of icon+text in sidebar for social, default=5 */
     text-decoration: none;
 
     &:hover {

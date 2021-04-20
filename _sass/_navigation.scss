@@ -88,12 +88,12 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: var(--link-color-hover);
       }
 
       &.current {
         color: #fff;
-        background: $primary-color;
+        background: var(--primary-color);
       }
 
       &.disabled {
@@ -136,7 +136,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      color: $link-color-hover;
+      color: var(--link-color-hover);
     }
 
     &:first-child {
@@ -164,7 +164,7 @@
 .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
 }
 
 
@@ -175,17 +175,17 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: var(--background-color);
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: var(--masthead-link-color);
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: var(--masthead-link-color-hover);
     }
   }
 
@@ -196,7 +196,7 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: var(--primary-color);
     color: #fff;
     cursor: pointer;
   }
@@ -232,7 +232,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        background: var(--masthead-line-hover-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -255,7 +255,7 @@
     right: 0;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid $border-color;
+    border: 1px solid var(--border-color);
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -266,7 +266,7 @@
       font-size: $type-size-5;
 
       &:hover {
-        color: $masthead-link-color-hover;
+        color: var(--masthead-link-color-hover);
         background: mix(#fff, $primary-color, 75%);
       }
     }
@@ -279,7 +279,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      border-color: var(--border-color) transparent;
       display: block;
       z-index: 0;
     }
@@ -299,7 +299,7 @@
 
     li {
       display: block;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid var(--border-color);
 
       &:last-child {
         border-bottom: none;
@@ -336,7 +336,7 @@
     padding-right: 0.5em;
     color: #fff;
     font-weight: bold;
-    background: $primary-color;
+    background: var(--primary-color);
     border-radius: $border-radius;
 
     &:hover {
@@ -361,7 +361,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--border-color);
 }
 
 
@@ -371,18 +371,18 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $gray;
+  color: var(--gray);
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
-    background: $primary-color;
+    background: var(--primary-color);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -398,11 +398,11 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: $gray;
+    color: var(--gray);
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid var(--border-color);
 
     &:hover {
       color: #000;

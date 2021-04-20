@@ -151,3 +151,25 @@
     font-size: $type-size-7;
   }
 }
+
+
+/* Personnal addition */
+
+/* Text button to unravel text */
+
+.toggle-list-btn {
+
+  cursor: pointer; 
+  
+  &:hover {
+    text-decoration: underline;
+  }
+
+}
+
+
+
+
+
+
+

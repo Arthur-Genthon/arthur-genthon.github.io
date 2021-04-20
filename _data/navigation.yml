@@ -1,22 +1,47 @@
 # main links links
+# only fr or only en are shown, cf _includes/masthead.html
 main:
+
+# English tabs
+
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
+    url: /teaching/  
+
+  - title: "History"
+    url: /history/
+
+#French tabs
+
+  - title: "Recherche"
+    url: /fr/research/
+
+  - title: "Publications"
+    url: /fr/publications/
+
+  - title: "Enseignement"
+    url: /fr/teaching/  
+
+  - title: "Histoire"
+    url: /fr/history/
+
+
+#  - title: "Talks" 
+#    url: /talks/   
+
+#  - title: "Portfolio"
+#    url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+#  - title: "Blog Posts"
+#    url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+#  - title: "CV"
+#    url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+#  - title: "Guide"
+#    url: /markdown/

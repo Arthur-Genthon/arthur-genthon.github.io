@@ -2,6 +2,7 @@
 
 <!-- start custom head snippets -->
 
+<!--
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -17,7 +18,11 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
 <link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
-<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+-->
+
+
+<link rel="shortcut icon" href="/images/fav-icon-2.png">
+
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
@@ -36,3 +41,49 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <!-- end custom head snippets -->
+
+
+<!-- Personnal additions -->
+
+<!-- Load color-mode -->
+
+<script>
+if (
+localStorage.getItem("color-mode") === "dark" ||
+(window.matchMedia("(prefers-color-scheme: dark)").matches &&
+  !localStorage.getItem("color-mode"))
+) {
+document.documentElement.setAttribute("color-mode", "dark");
+}
+</script>
+
+<!-- import mathjax, faster display than the one above -->
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- Click on text button to unravel text -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".unravel").hide();
+  $(".toggle-list-btn").click(function(){
+    $(".unravel").toggle("fast");
+  });
+});
+</script>
+

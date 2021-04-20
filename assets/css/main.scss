@@ -10,6 +10,13 @@
  *
 */
 
+/* Personnal addition */
+@import "colors/dark-scheme";
+@import "colors/light-scheme";
+@import "colors/color_hide";
+@import "colors/button_spec";
+
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";
@@ -39,3 +46,11 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" color-mode="light">  <!-- color-mode="light" is important here! It sets the dafault theme for eveything -->
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -27,5 +27,11 @@ layout: compress
 
     {% include scripts.html %}
 
+
+
+
   </body>
+  <script src="/assets/js/main.js"></script>
 </html>
+
+ 

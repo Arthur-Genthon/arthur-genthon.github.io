@@ -6,18 +6,96 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+
+          <!-- Main home button to fr or en page based on presence of /fr/ in page.url -->
+          {% if page.url contains '/fr/' %}
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/fr/">{{ site.title }}</a></li>
+          {% endif %}
+
+          {% unless page.url contains '/fr/' %}
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>    
+          {% endunless %}
+
+	  {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+
+            <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
+            {% if page.url contains '/fr/' and link.url contains '/fr/' %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+
+            {% unless page.url contains '/fr/' or link.url contains '/fr/' %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endunless %}
+
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden"></ul>        
       </nav>
-    </div>
+
+    <!-- Language selector -->
+    {% if page.layout != 'index' %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+	<div class="lang-btn">
+        {% for post in posts %}
+        <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon }} </a> 
+        {% endfor %}
+        </div>
+    {% endif %}
+{% endif %}
+
+    <!-- light/dark mode switch button style -->
+    <svg style="display: none;">
+      <symbol viewBox="0 0 24 24" id="moon">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </symbol>
+      <symbol viewBox="0 0 24 24" id="sun">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </symbol>
+    </svg>
+
+    <!-- light mode button -->
+    <button
+        class="color-mode__btn light--hidden"
+        aria-label="Toggle light mode" >
+        <!-- Toggle Light Mode -->
+	<svg aria-hidden="true">
+           <title>Light Mode</title>
+           <use href="#sun"></use>	
+         </svg> 
+    </button>
+
+    <!-- dark mode button -->
+    <button
+        class="color-mode__btn dark--hidden"
+        aria-label="Toggle dark mode">
+         <!-- Toggle Dark Mode -->
+          <svg aria-hidden="true">
+            <title>Dark Mode</title>
+            <use href="#moon"></use>
+          </svg>
+    </button>
+
+
+    </div> 
   </div>
 </div>
+
+
+

@@ -4,7 +4,11 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+
+  border-bottom: 1px solid var(--border-color);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
@@ -38,7 +42,36 @@
     padding: 0;
     clear: both;
     list-style-type: none;
+
   }
+
+
+/* 
+Positions of the dark/light toggle button and the languague selector
+Careful: 
+(i) color is a svg and lang is an emoji (text caracter) so they don't act the same --> need to adjust top
+and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, for the alignment
+(ii) z-index:30 puts them before the masthead, so that visible for any zoom level, but could hide nav links in the masthead
+*/
+
+
+.color-mode__btn {
+    position: absolute;
+    top:19px;
+    right:1em;
+    z-index:30;
+
+  }
+
+.lang-btn {
+    position: absolute;
+    top:8px;
+    right:2.5em;
+    font-size: 34px;
+    z-index:30;
+
+  }
+
 }
 
 .masthead__menu-item {
@@ -50,4 +83,8 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+
 }
+
+
