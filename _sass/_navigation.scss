@@ -257,8 +257,8 @@
     padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: $border-radius;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    background: var(--background-color);
+    box-shadow: 0 0 10px var(--box-shadow);
 
     a {
       margin: 0;
@@ -267,7 +267,7 @@
 
       &:hover {
         color: var(--masthead-link-color-hover);
-        background: mix(#fff, $primary-color, 75%);
+        background: var(--masthead-hidden-link-hover-background);
       }
     }
 

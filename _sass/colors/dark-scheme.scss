@@ -8,6 +8,7 @@ so every color has been redefined in HEX here */
 --background-black           : #333333;
 --white                      : #ffffff;
 --light-gray                 : #d3d3d3;
+--gray                       : #7a8288;
 --dark-gray                  : #5b5b5b;
 --black                      : #000000;
 
@@ -23,6 +24,9 @@ so every color has been redefined in HEX here */
 --footer-background-color    : var(--black);
 
 --navicon-link-color-hover   : mix(#fff, $background-color, 30%);
+
+--box-shadow                 : var(--gray);
+--masthead-hidden-link-hover-background: var(--dark-gray);
 
 --success-color              : #62c462;
 --warning-color              : #f89406;

@@ -30,6 +30,9 @@ so every color has been redefined in HEX here */
 --footer-background-color    : mix($primary-color, #000, 10%);
 --navicon-link-color-hover   : mix(#fff, $background-color, 30%);
 
+--box-shadow                 : var(--light-gray);
+--masthead-hidden-link-hover-background: #dddfe1;
+
 --success-color              : #62c462;
 --warning-color              : #f89406;
 --danger-color               : #ee5f5b;
