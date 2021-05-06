@@ -15,7 +15,7 @@ I am a theoretical physicist, interested in statistical physics, stochastic proc
 I am currently a PhD student working with [David Lacoste](https://www.pct.espci.fr/~david/),
 in [Gulliver](https://www.gulliver.espci.fr/?-home-&lang=fr) laboratory. 
 
-Besides, I am also very invested in [teaching](/teaching/), and found of [history](/history/)
+Besides, I am also very invested in [teaching](/teaching/), and fond of [history](/history/)
 and philosophy of sciences! 
 
 <br/>
