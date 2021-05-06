@@ -20,9 +20,21 @@ and philosophy of sciences!
 
 <br/>
 
+<div class="small-hidden">
 <i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode with the button in the top right corner! 
 
+<br/> <br/>
+
 🇫🇷  Ce site est disponible en français, en cliquant sur le drapeau en haut à droite de l'écran !
+</div>
+
+<div class="large-hidden">
+<i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode with the button in the drop-down menu "More"! 
+
+<br/> <br/>
+
+🇫🇷  Ce site est disponible en français, en cliquant sur le drapeau dans le menu déroulant "More" !
+</div>
 
 <br/>
 

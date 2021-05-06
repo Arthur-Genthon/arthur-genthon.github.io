@@ -235,6 +235,27 @@ body:hover .visually-hidden button {
   display: table;
 }
 
+
+
+/*
+   Size-screen displays
+   ========================================================================== */
+
+.small-hidden{
+    display: none;
+    @include breakpoint($large){
+        display: inline;
+    }
+}
+
+.large-hidden{
+    display: inline;
+    @include breakpoint($large){
+        display: none;
+    }
+}
+
+
 /*
    Icons
    ========================================================================== */

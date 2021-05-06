@@ -17,12 +17,23 @@ au laboratoire [Gulliver](https://www.gulliver.espci.fr/?-home-&lang=fr).
 
 Investi dans l'[enseignement](/fr/teaching/), qui me tient à coeur, et passioné d'[histoire](/fr/history/) et de philosophie des sciences, allez visiter les pages dédiées !
 
-
 <br/>
 
+<div class="small-hidden">
 <i class="fas fa-lightbulb" aria-hidden="true"></i>  Vous pouvez basculer entre les modes sombre et clair avec le bouton en haut à droite de l'écran ! 
 
+<br/> <br/>
+
 🇬🇧  This website is available in english, just click the flag in the top right-hand corner!
+</div>
+
+<div class="large-hidden">
+<i class="fas fa-lightbulb" aria-hidden="true"></i>  Vous pouvez basculer entre les modes sombre et clair avec le bouton dans le menu déroulant "Plus" ! 
+
+<br/> <br/>
+
+🇬🇧  This website is available in english, just click the flag in the drop-down menu "Plus"!
+</div>
 
 <br/>
 
