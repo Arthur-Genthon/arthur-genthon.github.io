@@ -19,8 +19,8 @@ These results are interpreted in the frameworks of stochastic thermodynamics and
 Although our research is mainly framed in the context of bacterial colonies, it applies to any branching process such as the species/gene trees encountered in evolution.
   </div>
   <div class="column-right">
-    <img  src="{{"/images/tree_art.svg"}}" class="dark--hidden" style="width:100%" >
-    <img  src="{{"/images/tree_art_dark.svg"}}" class="light--hidden" style="width:100%">
+    <img  src="{{"/images/tree_art.svg"}}" class="dark--hidden" >
+    <img  src="{{"/images/tree_art_dark.svg"}}" class="light--hidden">
   </div>
  </div> 
 </p>

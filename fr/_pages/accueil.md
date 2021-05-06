@@ -10,7 +10,7 @@ lang: fr
 ref: home
 ---
 
-Je suis un physicien théoricien, interessé par la physique statistique, les processus stochastiques et la thermodynamique stochastique, ainsi que par leur application à des problèmes complexes issus de la biologie. 
+Je suis physicien théoricien, interessé par la physique statistique, les processus stochastiques et la thermodynamique stochastique, ainsi que par leur application à des problèmes complexes issus de la biologie. 
 
 Je suis actuellement en thèse avec [David Lacoste](https://www.pct.espci.fr/~david/),
 au laboratoire [Gulliver](https://www.gulliver.espci.fr/?-home-&lang=fr). 

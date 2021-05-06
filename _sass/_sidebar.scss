@@ -182,6 +182,7 @@
     border: 0;
     background: transparent;
     box-shadow: none;
+
   }
 
   &:before {
@@ -236,4 +237,13 @@
       text-decoration: underline;
     }
   }
+
+.large-hidden{ 
+@include breakpoint($large) {
+      display: none;
+    }
 }
+
+}
+
+.hr-text-color{color: var(--link-color);}

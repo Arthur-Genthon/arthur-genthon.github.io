@@ -20,7 +20,13 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    {% if page.url contains '/fr/' %}
+    <button class="btn btn--inverse">Plus</button>
+    {% endif %}
+    {% unless page.url contains '/fr/' %}
+    <button class="btn btn--inverse">More</button>
+    {% endunless %}
+
     <ul class="author__urls social-icons">
       
       {% if author.location %}
@@ -56,6 +62,54 @@
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
       {% endif %}
 
+
+<div class="large-hidden">
+<li> <hr> </li>
+<li>
+
+    <!-- Language selector -->
+    {% if page.layout != 'index' %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+	<div class="lang-btn">
+        {% for post in posts %}
+        <a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }}" title="View in {{post.lang}}">{{ site.data.languages[post.lang].icon }}  {{ site.data.languages[post.lang].label }}</a> 
+        {% endfor %}
+        </div>
+    {% endif %}
+{% endif %}
+
+</li>
+
+    <li>
+    <!-- light mode button -->
+    <button
+        class="color-mode__btn btn-list light--hidden"
+        aria-label="Toggle light mode" >
+        <!-- Toggle Light Mode -->
+	<svg aria-hidden="true">
+           <title>Light Mode</title>
+           <use href="#sun"></use>	
+         </svg> 
+	 Light mode
+    </button>
+
+    <!-- dark mode button -->
+    <button
+        class="color-mode__btn btn-list dark--hidden"
+        aria-label="Toggle dark mode">
+         <!-- Toggle Dark Mode -->
+          <svg aria-hidden="true">
+            <title>Dark Mode</title>
+            <use href="#moon"></use>
+          </svg>
+         Dark mode
+    </button>
+    </li>
+</div>
 
 <!-- Other social
 
@@ -132,4 +186,6 @@
 -->
     </ul>
   </div>
+
+
 </div>

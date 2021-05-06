@@ -21,8 +21,8 @@ Observé et décrit par le botaniste Robert Brown en 1827, le mouvement brownien
 <br>
 
 <p>
-  <img  src="{{"/images/chronology_fr.svg"}}" class="dark--hidden center" style="width:75%">
-  <img  src="{{"/images/chronology_dark_fr.svg"}}" class="light--hidden center" style="width:75%" >
+  <img  src="{{"/images/chronology_fr.svg"}}" class="dark--hidden flex-width">
+  <img  src="{{"/images/chronology_dark_fr.svg"}}" class="light--hidden flex-width" >
 </p>
 
 <br>

@@ -57,6 +57,7 @@ $(document).ready(function(){
     $(".author__urls-wrapper button").toggleClass("open");
   });
 
+
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
 
@@ -131,4 +132,6 @@ $(document).ready(function(){
   var btnContainer = document.querySelector(".color-mode__header");
   btnContainer.style.display = "none";
 } */
+
+
 

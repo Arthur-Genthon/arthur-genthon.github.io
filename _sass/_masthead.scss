@@ -60,8 +60,14 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
     top:19px;
     right:1em;
     z-index:30;
+    display: none;
 
+  @include breakpoint($large) {
+    display: block;
   }
+
+}
+
 
 .lang-btn {
     position: absolute;
@@ -69,6 +75,12 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
     right:2.5em;
     font-size: 34px;
     z-index:30;
+    display: none;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
 
   }
 

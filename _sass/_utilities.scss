@@ -171,26 +171,59 @@ body:hover .visually-hidden button {
     width: 100% 
 }
 
-.center {
+.flex-width {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 50%; */
+  width: 100%;
+
+  @include breakpoint($x-large){
+    width: 75%;
+  }
 }
 
-/* Two column side by side content */
+/* Two column side by side if large screen, one column if small screen */
+/* For now, left is text and right is image, have to generalize later */
+
 .column-left {
   text-align: justify;
   float: left;
-  width: 50%;
-  padding-right: 20px;
+  width: 100%;
+  padding-right: 0px;
+  padding-bottom: 20px;
+
+  @include breakpoint($small){
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  @include breakpoint($x-large){
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 0px;
+  }
 }
 
 .column-right {
   text-align: justify;
   float: left;
-  width: 50%;
-  padding-left: 20px;
+  width: 100%;
+  padding-left: 0px;
+
+  @include breakpoint($small){
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-left: 0px;
+  }
+
+  @include breakpoint($x-large){
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
 }
 
 

@@ -21,8 +21,8 @@ Observed and described by the botanist Robert Brown in 1827, Brownian motion was
 <br>
 
 <p>
-  <img  src="{{"/images/chronology.svg"}}" class="dark--hidden center" style="width:75%">
-  <img  src="{{"/images/chronology_dark.svg"}}" class="light--hidden center" style="width:75%" >
+  <img  src="{{"/images/chronology.svg"}}" class="dark--hidden flex-width">
+  <img  src="{{"/images/chronology_dark.svg"}}" class="light--hidden flex-width" >
 </p>
 
 <br>

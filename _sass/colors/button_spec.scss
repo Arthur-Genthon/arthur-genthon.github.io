@@ -20,6 +20,21 @@
   /* box-shadow: var(--box-shadow); */
 }
 
+.btn-list{
+  display: block;
+  align-items: left;
+  justify-content: left;
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin: none;
+  color: var(--text-color, #111111);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
 /* change width and heigth HERE for the button appearance */
 .color-mode__btn svg {
 
@@ -35,6 +50,13 @@
 
 }
 
+.btn-list svg{ 
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0px; 
+  padding-left: 0rem;
+}
+
 .color-mode__btn:hover svg,
 .color-mode__btn:focus svg, .color-mode__btn:focus {
 
@@ -43,3 +65,5 @@
   fill: var(--text-color, #fff7d6);
 
 }
+
+
