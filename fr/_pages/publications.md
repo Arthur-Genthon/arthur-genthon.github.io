@@ -21,7 +21,7 @@ ref: publi
 
 [4] Universal constraints on selection strength in lineage trees,\
 **A. Genthon**, D. Lacoste,\
-To appear in Physical Review Research, [arXiv](https://arxiv.org/abs/2012.02734) 
+Physical Review Research 3, 023187 (2021) [PDF](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187) 
 
 [3] Fluctuation relations and fitness landscapes of growing cell populations,\
 **A. Genthon**, D. Lacoste,\
