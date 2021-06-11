@@ -19,7 +19,7 @@ ref: teaching
 
 <li>
 <b>Thermodynamique</b>, L2 Université de Paris, TD (36hx2) <br>
-Programme : premier et second principe, gaz parfait, gaz de Van der Waals, potentiels thermodynamiques, transitions de phase, machines thermiques, introduction à la phyisique statistique
+Programme : premier et second principe, gaz parfait, gaz de Van der Waals, potentiels thermodynamiques, transitions de phase, machines thermiques, introduction à la physique statistique
 </li>
 
 <li>
@@ -33,7 +33,7 @@ Programme : mécanique, électricité, optique
 </li>
 
 <li>
-<b>Outils bureautique et internet</b>, L1 year Université de Paris, Cours+TD (24h)
+<b>Outils bureautique et internet</b>, L1 Université de Paris, Cours+TD (24h)
 </li>
 
 <li>
