@@ -19,18 +19,58 @@ ref: publi
 {% endfor %}
 -->
 
-[4] Universal constraints on selection strength in lineage trees,\
-**A. Genthon**, D. Lacoste,\
-Physical Review Research 3, 023187 (2021) [PDF](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187) 
 
-[3] Fluctuation relations and fitness landscapes of growing cell populations,\
-**A. Genthon**, D. Lacoste,\
-Scientific Reports 10, 11889 (2020) [PDF](https://www.nature.com/articles/s41598-020-68444-x)
 
-[2] The concept of velocity in the history of Brownian motion: From physics to mathematics and back,\
-**A. Genthon**,\
-European Physical Journal H 45, 49-105 (2020) [PDF](https://rdcu.be/b5yPQ)
+<div class="pub">
+    <span class="mr-5">[6]</span> 
+    <span>Analytical cell size distribution: lineage-population bias and parameter inference,<br>
+	<b>A. Genthon</b>,<br>
+	Journal of the Royal Society Interface 19, 20220405 (2022) <a href="https://doi.org/10.1098/rsif.2022.0405">Link</a>
+    </span>
+</div>
 
-[1] Linking lineage and population observables in biological branching processes,\
-R. Garcia-Garcia, **A. Genthon**, D. Lacoste,\
-Physical Review E 99, 042413 (2019) [Journal](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413)
+
+
+<div class="pub">
+    <span class="mr-5">[5]</span> 
+    <span>Branching processes with resetting as a model for cell division,<br>
+	<b>A. Genthon</b>, R. Garcia-Garcia, D. Lacoste,<br>
+	Journal of Physics A: Mathematical and Theoretical 55, 074001 (2022) <a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491a">Link</a>
+    </span>
+</div>
+
+
+<div class="pub">
+    <span class="mr-5">[4]</span> 
+    <span>Universal constraints on selection strength in lineage trees,<br>
+	<b>A. Genthon</b>, D. Lacoste,<br>
+	Physical Review Research 3, 023187 (2021) <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">PDF</a> 
+    </span>
+</div>
+
+
+<div class="pub">
+    <span class="mr-5">[3]</span> 
+    <span>Fluctuation relations and fitness landscapes of growing cell populations,<br>
+	<b>A. Genthon</b>, D. Lacoste,<br>
+	Scientific Reports 10, 11889 (2020) <a href="https://www.nature.com/articles/s41598-020-68444-x">PDF</a> 
+    </span>
+</div>
+
+
+<div class="pub">
+    <span class="mr-5">[2]</span> 
+    <span>The concept of velocity in the history of Brownian motion: From physics to mathematics and back,<br>
+	<b>A. Genthon</b>,<br>
+	European Physical Journal H 45, 49-105 (2020) <a href="https://rdcu.be/b5yPQ">PDF</a>
+    </span>
+</div>
+
+
+<div class="pub">
+    <span class="mr-5">[1]</span> 
+    <span>Linking lineage and population observables in biological branching processes,<br>
+	R. Garcia-Garcia, <b>A. Genthon</b>, D. Lacoste,<br>
+	Physical Review E 99, 042413 (2019) <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413">Journal</a> 
+    </span>
+</div>

@@ -19,6 +19,15 @@ ref: publi
 {% endfor %}
 -->
 
+<div class="pub">
+    <span class="mr-5">[6]</span> 
+    <span>Analytical cell size distribution: lineage-population bias and parameter inference,<br>
+	<b>A. Genthon</b>,<br>
+	Journal of the Royal Society Interface 19, 20220405 (2022) <a href="https://doi.org/10.1098/rsif.2022.0405">Link</a>
+    </span>
+</div>
+
+
 
 <div class="pub">
     <span class="mr-5">[5]</span> 
