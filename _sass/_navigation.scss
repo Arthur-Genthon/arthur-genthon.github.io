@@ -175,7 +175,8 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: var(--background-color);
+  /* background: var(--background-color); */
+  background: var(--masthead-background-color);
 
   a {
     display: block;
@@ -257,7 +258,7 @@
     padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: $border-radius;
-    background: var(--background-color);
+    background: var(--masthead-background-color);
     box-shadow: 0 0 10px var(--box-shadow);
 
     a {
@@ -267,7 +268,8 @@
 
       &:hover {
         color: var(--masthead-link-color-hover);
-        background: var(--masthead-hidden-link-hover-background);
+        text-decoration: underline;
+/*        background: var(--masthead-hidden-link-hover-background); */
       }
     }
 
@@ -370,17 +372,19 @@
    ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
-  color: var(--gray);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  background-color: #fff;
-  border: 1px solid var(--border-color);
+  font-family: $sans-serif; 
+  color: var(--text_color);
+/*  text-transform: uppercase; */
+/*  letter-spacing: 1px; */
+/*  padding: 1em; */
+  background-color: var(--background-color);
+  border: 0px solid var(--border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    text-transform: uppercase;
+    color: var(--background-color);
     font-size: $type-size-6;
     background: var(--primary-color);
     border-top-left-radius: $border-radius;
@@ -392,7 +396,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  list-style: none;
+/*  list-style: none; */
   font-size: 0.8rem;
 
   a {
@@ -428,5 +432,5 @@
     @include breakpoint($medium) {
       display: block;
     }
-  }
+  } 
 }

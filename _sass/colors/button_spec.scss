@@ -12,7 +12,7 @@
   font-weight: 600;
   line-height: 1;
   color: #111111;
-  color: var(--text-color, #111111);
+  color: var(--background-color , #111111);
   cursor: pointer;
   background: none;
   border: none;
@@ -43,7 +43,7 @@
   margin-left: 7px;
   fill: none;
   stroke: #222222;
-  stroke: var(--text-color, #222222);
+  stroke: var(--background-color , #222222);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.5px;
@@ -62,7 +62,7 @@
 
   outline: none;
   fill: #fff7d6;
-  fill: var(--text-color, #fff7d6);
+  fill: var(--background-color , #fff7d6);
 
 }
 

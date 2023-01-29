@@ -9,15 +9,17 @@ so every color has been redefined in HEX here */
 --white                      : #ffffff;
 --light-gray                 : #d3d3d3;
 --gray                       : #7a8288;
---dark-gray                  : #5b5b5b;
+--dark-gray                  : #363636;
 --black                      : #000000;
 
 --link-yellow                : #edd02b;
+--dark-yellow                : #d5bb26;
 
 --background-color           : var(--background-black);
 --text-color                 : var(--white);
 --primary-color              : var(--light-gray);
 --border-color               : var(--dark-gray);
+--research-box-border-color  : var(--dark-yellow);
 --code-background-color      : var(--dark-gray);
 --code-background-color-dark : var(--dark-gray);
 --form-background-color      : var(--dark-gray);
@@ -33,6 +35,9 @@ so every color has been redefined in HEX here */
 --danger-color               : #ee5f5b;
 
 --info-color                 : var(--link-yellow); 
+
+--masthead-background-color  : var(--dark-yellow); 
+/* --masthead-background-color  : var(--link-yellow); */
 
 
 /* brands */
@@ -64,9 +69,9 @@ so every color has been redefined in HEX here */
 --link-color                 : var(--info-color);
 --link-color-hover           : #b19c20;
 --link-color-visited         : #b19c20;
---masthead-link-color        : var(--primary-color);
---masthead-link-color-hover  : var(--white);
---masthead-line-hover-color  : var(--white);
+--masthead-link-color        : var(--dark-gray);
+--masthead-link-color-hover  : var(--black);
+--masthead-line-hover-color  : var(--black);
 
 }
 

@@ -15,22 +15,24 @@ ref: teaching
 {% endfor %}
 -->
 
-<ul style="list-style-type:circle;">
+During my PhD, I taught at Université de Paris:
+
+<ul style="list-style-type:disc;">
 
 <li>
-<b>Thermodynamics</b>, 2nd year Université de Paris, tutorials (36hx2) <br>
-Content: First and second principles, Ideal gas, Van der Waals gas, Thermodynamic potentials, Phase tansitions,
-Heat engine, Introduction to statistical mechanics
+<b>Thermodynamics</b>, 2nd year Université de Paris, tutorials (2x36h) <br>
+First and second principles, Ideal gas, Van der Waals gas, Thermodynamic potentials, Phase tansitions,
+Heat engines, Introduction to statistical mechanics
 </li>
 
 <li>
 <b>Mathematics</b>, 3rd year Université de Paris, lecture+tutorials (23h) <br>
-Content: Matrix calculus, Fourier series and Fourier transforms, probabilities
+Matrix calculus, Fourier series and Fourier transforms, Probabilities
 </li>
 
 <li>
 <b>Lab work</b>, 1st year Université de Paris (48h) <br>
-Content: Mechanics, Electricity, Optics
+Mechanics, Electricity, Optics
 </li>
 
 <li>
@@ -39,7 +41,7 @@ Content: Mechanics, Electricity, Optics
 
 <li>
 <b>Lab work</b>, last year high school (20h) <br>
-Content: high school physics and chemistry
+High school physics and chemistry
 </li>
 
 </ul>

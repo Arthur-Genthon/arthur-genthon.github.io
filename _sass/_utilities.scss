@@ -461,7 +461,7 @@ body:hover .visually-hidden button {
     @include clearfix();
     position: -webkit-sticky;
     position: sticky;
-    top: 2em;
+    top: 5em;
 
     > * {
       display: block;
@@ -589,3 +589,84 @@ a.reversefootnote {
 .mr-5{
   margin-right:5px;
 }
+
+
+/*
+   Research boxes
+   ========================================================================== */
+
+
+.container{
+/*    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    float: left;
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.container .box{
+    position: relative;
+    width: 40%; /*Change Applied*/
+    height: 400px;
+    background: var(--background-color) ;
+    transition: 0.5s;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--research-box-border-color);
+    border-radius: 8px;
+    margin-right: 0.5em;
+}
+.container .box:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,1);
+}
+.container .box .thumb{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    padding: 1.5em;
+}
+
+.container .box .thumb img{
+    width: 100%;
+}
+
+
+.container .box .details{
+    position: absolute;
+    width: 100%;
+    height: 3em;
+    overflow: hidden;
+/*    background: var(--background-color); */
+}
+
+
+.container .box .details .content{
+    position: absolute;
+    top: calc(50% + 16px);
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 20px;
+/*    box-sizing: border-box; */
+    text-align: center;
+    transition: 0.5s;
+}
+.container .box:hover .details .content{
+    top: calc(50%);
+}
+.container .box .details .content h3{
+    margin: 0;
+    padding: 0;
+    padding: 10px 0;
+    color: var(--text-color);
+}
+
+

@@ -3,10 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
-  /* position: fixed;
+  /* position: relative; */
+  position: fixed;
   top: 0;
-  width: 100%; */
+  width: 100%;
+  background: var(--masthead-background-color);
 
   border-bottom: 1px solid var(--border-color);
   -webkit-animation: intro 0.3s both;
@@ -18,7 +19,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+/*    padding: 1em 1em 1em; */
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -36,13 +37,13 @@
 }
 
 .masthead__menu {
-
+ 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
-
+    
   }
 
 
@@ -57,7 +58,7 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
 
 .color-mode__btn {
     position: absolute;
-    top:19px;
+    top:6px;
     right:1em;
     z-index:30;
     display: none;
@@ -71,7 +72,7 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
 
 .lang-btn {
     position: absolute;
-    top:8px;
+    top:-4px;
     right:2.5em;
     font-size: 34px;
     z-index:30;

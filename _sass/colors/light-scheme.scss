@@ -16,13 +16,15 @@ so every color has been redefined in HEX here */
 --dark-gray                  : #303436; 
 
 --white                      : #ffffff;
---link-blue                  : #52adc8; 
+--link-blue                  : #127ac9; 
+--dark-blue                  : #4974a5;
 
 
 --background-color           : var(--white);
 --text-color                 : var(--darker-gray);
 --primary-color              : var(--gray);
 --border-color               : var(--lighest-gray);
+--research-box-border-color  : var(--dark-blue);
 --code-background-color      : #fafafa;
 --code-background-color-dark : var(--light-gray);
 
@@ -38,6 +40,8 @@ so every color has been redefined in HEX here */
 --danger-color               : #ee5f5b;
 
 --info-color                 : var(--link-blue);  
+
+--masthead-background-color  : var(--dark-blue);
 
 
 /* brands */
@@ -69,9 +73,9 @@ so every color has been redefined in HEX here */
 --link-color                 : var(--link-blue);
 --link-color-hover           : #3d8196;
 --link-color-visited         : #7dc1d5;
---masthead-link-color        : var(--primary-color);
---masthead-link-color-hover  : var(--slightly-darker-gray);
---masthead-line-hover-color  : var(--light-gray)
+--masthead-link-color        : var(--lighest-gray);
+--masthead-link-color-hover  : var(--white);
+--masthead-line-hover-color  : var(--white)
 
 }
 
