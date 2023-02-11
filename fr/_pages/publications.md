@@ -43,7 +43,7 @@ ref: publi
 
 <div class="pub">
     <span class="mr-5">[4]</span> 
-    <span>Universal constraints on selection strength in lineage trees,<br>
+    <span>Universal constraints on selection strength in lineage trees*,<br>
 	<b>A. Genthon</b>, D. Lacoste,<br>
 	Physical Review Research 3, 023187 (2021) <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">[journal (OA)]</a> 
     </span>
@@ -52,7 +52,7 @@ ref: publi
 
 <div class="pub">
     <span class="mr-5">[3]</span> 
-    <span>Fluctuation relations and fitness landscapes of growing cell populations,<br>
+    <span>Fluctuation relations and fitness landscapes of growing cell populations*,<br>
 	<b>A. Genthon</b>, D. Lacoste,<br>
 	Scientific Reports 10, 11889 (2020) <a href="https://www.nature.com/articles/s41598-020-68444-x">[journal (OA)]</a> 
     </span>
@@ -70,9 +70,11 @@ ref: publi
 
 <div class="pub">
     <span class="mr-5">[1]</span> 
-    <span>Linking lineage and population observables in biological branching processes,<br>
+    <span>Linking lineage and population observables in biological branching processes*,<br>
 	R. Garcia-Garcia, <b>A. Genthon</b>, D. Lacoste,<br>
 	Physical Review E 99, 042413 (2019) <a href="https://arxiv.org/abs/1901.06932">[arXiv,</a> <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413">journal]</a>
     </span>
 </div>
 
+
+\* Pour plus de détails sur ces articles, voir ma <a href="https://pastel.archives-ouvertes.fr/tel-03980960">thèse de doctorat</a>.
