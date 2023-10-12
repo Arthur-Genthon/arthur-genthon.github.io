@@ -19,6 +19,22 @@ ref: publi
 {% endfor %}
 -->
 
+<div class="pub">
+    <span class="mr-5">[8]</span> 
+    <span>Equilibrium melting probabilities of a DNA molecule with a defect: An exact solution of the Poland–Scheraga model,<br>
+	<b>A. Genthon</b>, A. Dvirnas, T. Ambjörnsson,<br>
+	The Journal of Chemical Physics 159, 145102 (2023) <a href="https://doi.org/10.1063/5.0168915">[journal (OA)]</a>
+    </span>
+</div>
+
+
+<div class="pub">
+    <span class="mr-5">[7]</span> 
+    <span>Cell Lineage Statistics with Incomplete Population Trees,<br>
+	<b>A. Genthon</b>, T. Nozoe, L. Peliti, D. Lacoste,<br>
+	PRX Life 1, 013014 (2023) <a href="https://link.aps.org/doi/10.1103/PRXLife.1.013014">[journal (OA)]</a>
+    </span>
+</div>
 
 
 <div class="pub">
@@ -78,3 +94,5 @@ ref: publi
 
 
 \* Pour plus de détails sur ces articles, voir ma <a href="https://pastel.archives-ouvertes.fr/tel-03980960">thèse de doctorat</a>.
+
+OA = Open Access. Pour les autres articles, si vous n'avez pas accès à la version publiée, je me ferai un plaisir de vous l'envoyer par email sur demande !
