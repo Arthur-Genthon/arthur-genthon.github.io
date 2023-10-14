@@ -39,7 +39,14 @@ h2 {
 
 h3 {
   font-size: $type-size-5;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
 }
+
+h3 + ul {
+    margin-top: 0;
+}
+
 
 h4 {
   font-size: $type-size-6;
@@ -60,6 +67,11 @@ small, .small {
 p {
   margin-bottom: 1.3em;
 }
+
+p + h3 {
+    margin-top: 0;
+}
+
 
 u,
 ins {
@@ -167,7 +179,7 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 li ul,
