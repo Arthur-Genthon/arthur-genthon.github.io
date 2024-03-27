@@ -20,6 +20,15 @@ ref: publi
 -->
 
 <div class="pub">
+    <span class="mr-5">[9]</span> 
+    <span>Non Equilibrium Transitions in a Polymer Replication Ensemble,<br>
+	<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill,<br>
+	arXiv:2403.05665 (2024) <a href="http://arxiv.org/abs/2403.05665">[arXiv]</a>
+    </span>
+</div>
+
+
+<div class="pub">
     <span class="mr-5">[8]</span> 
     <span>Equilibrium melting probabilities of a DNA molecule with a defect: An exact solution of the Poland–Scheraga model,<br>
 	<b>A. Genthon</b>, A. Dvirnas, T. Ambjörnsson,<br>
