@@ -20,6 +20,14 @@ ref: publi
 -->
 
 <div class="pub">
+    <span class="mr-5">[10]</span> 
+    <span>From noisy cell size control to population growth: when variability can be beneficial,<br>
+	<b>A. Genthon</b>,<br>
+	arXiv:2411.08512 (2024) <a href="https://arxiv.org/abs/2411.08512">[arXiv]</a>
+    </span>
+</div>
+
+<div class="pub">
     <span class="mr-5">[9]</span> 
     <span>Non Equilibrium Transitions in a Polymer Replication Ensemble,<br>
 	<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill,<br>
