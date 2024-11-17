@@ -501,7 +501,71 @@ $(document).ready(function(){
       <h1 class="page__title">Recherche</h1>
     
     
-<h2> Evolution / Dynamique des populations </h2>
+<h2> Physique statistique de la réplication </h2>
+
+<p>
+ <div class="row">
+  <div class="column-left">
+
+La réplication est caractéristique du monde vivant, de l'ADN aux cellules et aux organismes. Pour copier l'information, les systèmes consomment de l'énergie ce qui les maintient hors-équilibre et génère de la dissipation. Nous étudions les contraintes thermodynamique sur la précision et l'efficacité de la réplication, pour la copie de copolymères (réplication, transcription, traduction) et pour la division cellulaire que nous modélisons comme une combinaison de branchement et de resetting. Des transitions de phase abruptes entre populations de copies aléatoires et précises sont observées, et nous proposons une définition de l'efficacité de la division cellulaire.
+
+  </div>
+  <div class="column-right">
+    <img src="/images/replication_cartoon.svg" class="dark--hidden" />
+    <img src="/images/replication_cartoon_dark.svg" class="light--hidden" />
+  </div>
+ </div> 
+</p>
+
+<h3> Publications associées : </h3>
+
+<ul style="list-style-type:disc;">
+
+   <li>
+<a href="https://arxiv.org/abs/2403.05665">Non Equilibrium Transitions in a Polymer Replication Ensemble</a>,
+<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, arXiv:2403.05665 (2024)
+   </li>
+
+   <li>
+<a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491a">Branching processes with resetting as a model for cell division</a>,
+<b>A. Genthon</b>, R. Garcia-Garcia, D. Lacoste, J. Phys. A: Math. Theor. (2022)
+   </li>
+  
+  </ul>
+
+<h2> Contrôle de la taille des cellules et dynamique des populations </h2>
+
+<p>
+ <div class="row">
+  <div class="column-left">
+
+Les processus moléculaires du cycle cellulaire sont stochastiques, ce qui génère une grande variabilité entre cellules génétiquement identiques. Pour compenser ces fluctuations, les cellules emploient des mécanismes de contrôle de la taille (sizer, adder, ...). Nous étudions l'interaction entre variabilité intercellulaire, contrôle de la taille et croissance de la population. Nos résultats portent sur le rôle de la variabilité et du contrôle de la taille dans la croissance de la population ; sur la distribution de taille des cellules, qui révèle les paramètres du cycle cellulaire à partir de données expérimentales ; et sur le biais entre les distributions de taille (et les mécanismes de contrôle) en population et en lignée unique (mother machine).
+
+
+  </div>
+  <div class="column-right">
+    <img src="/images/pop_cell.svg" class="dark--hidden" />
+    <img src="/images/pop_cell_dark.svg" class="light--hidden" />
+  </div>
+ </div> 
+</p>
+<h3> Publications associées : </h3>
+
+<ul style="list-style-type:disc;">
+
+   <li>
+<a href="https://arxiv.org/abs/2411.08512">From noisy cell size control to population growth: when variability can be beneficial</a>,
+<b>A. Genthon</b>, arXiv:2411.08512 (2024)
+   </li>
+
+   <li>
+<a href="https://doi.org/10.1098/rsif.2022.0405">Analytical cell size distribution: lineage-population bias and parameter inference</a>,
+<b>A. Genthon</b>, J. R. Soc. Interface. (2022)
+   </li>
+  
+  </ul>
+
+<h2> Evolution quantitative </h2>
 
 <p>
  <div class="row">
@@ -518,7 +582,7 @@ Définir le "fitness", la sélection et la survie est une étape fondamentale da
  </div> 
 </p>
 
-<h3> Publiations associées : </h3>
+<h3> Publications associées : </h3>
 
 <ul style="list-style-type:disc;">
 
@@ -545,33 +609,6 @@ PRE (2019)
    </li>
   </ul>
 
-<h2> Distribution et contrôle de la taille des cellules </h2>
-
-<p>
- <div class="row">
-  <div class="column-left">
-
-La distribution d'équilibre de la taille des cellules est le résultat de mécanismes qui régulent la croissance et la division. Le caractère aléatoire de ces mécanismes (taille visée à la division, taux d'élongation, asymétrie entre cellules sœurs) impacte cette distribution. Puisqu'elles sont corrélées au succès reproductif, ces sources de stochasticité impliquent des biais entre les distributions au niveau de la population et de la lignée unique. 
-
-  </div>
-  <div class="column-right">
-    <img src="/images/size_distrib.svg" class="dark--hidden" />
-    <img src="/images/size_distrib_dark.svg" class="light--hidden" />
-  </div>
- </div> 
-</p>
-
-<h3> Publiations associées : </h3>
-
-<ul style="list-style-type:disc;">
-
-   <li>
-<a href="https://doi.org/10.1098/rsif.2022.0405">Analytical cell size distribution: lineage-population bias and parameter inference</a>,
-<b>A. Genthon</b>, J. R. Soc. Interface. (2022)
-   </li>
-  
-  </ul>
-
 <h2> Dénaturation de l'ADN </h2>
 
 <p>
@@ -588,7 +625,7 @@ Nous étudions la dénaturation d'une paire de bases défectueuse et de ses vois
  </div> 
 </p>
 
-<h3> Publiations associées : </h3>
+<h3> Publications associées : </h3>
 
 <ul style="list-style-type:disc;">
 
@@ -599,32 +636,6 @@ Nous étudions la dénaturation d'une paire de bases défectueuse et de ses vois
 
   </ul>
 
-<h2> Thermodynamique de la division cellulaire </h2>
-
-<p>
- <div class="row">
-  <div class="column-left">
-
-Pour étudier la thermodynamique de la division cellulaire, un processus absolument irréversible, nous séparons la division en deux : le branchement, par lequel une cellule se duplique, et le "resetting", qui réinitialise les propriétés des cellules filles. Ces deux processus modifient l'énergie et l'entropie du système, sur la base de quoi nous proposons une mesure de l'efficacité de la division cellulaire, qui est évaluée pour différents modèles de contrôle de la taille.
-
-  </div>
-  <div class="column-right">
-    <img src="/images/thermo_div.svg" class="dark--hidden" />
-    <img src="/images/thermo_div_dark.svg" class="light--hidden" />
-  </div>
- </div> 
-</p>
-
-<h3> Publiations associées : </h3>
-
-<ul style="list-style-type:disc;">
-
-   <li>
-<a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491a">Branching processes with resetting as a model for cell division</a>,
-<b>A. Genthon</b>, R. Garcia-Garcia, D. Lacoste, J. Phys. A: Math. Theor. (2022)
-   </li>
-  
-  </ul>
 
   </div>
 </div>
