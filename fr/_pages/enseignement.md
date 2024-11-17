@@ -15,7 +15,7 @@ ref: teaching
 {% endfor %}
 -->
  
-Pendant ma thèse j'ai enseigné à l'Université de Paris :
+Pendant ma thèse j'ai enseigné à l'<a href="https://physique.u-paris.fr/">Université de Paris</a> (maintenant Université Paris Cité):
 
 <ul style="list-style-type:disc;">
 
@@ -25,7 +25,7 @@ Premier et second principes, Gaz parfait, Gaz de Van der Waals, Potentiels therm
 </li>
 
 <li>
-<b>Mathématiques</b>, L3 Université de Paris, Cours+TD (23h) <br>
+<b>Mathématiques</b>, L3 Université de Paris, Cours + TD (23h) <br>
 Calcul matriciel, Séries et transformées de Fourier, Probabilités
 </li>
 
@@ -35,12 +35,10 @@ Mécanique, Electricité, Optique
 </li>
 
 <li>
-<b>Outils bureautique et internet</b>, L1 Université de Paris, Cours+TD (24h)
-</li>
-
-<li>
-<b>Travaux pratiques</b>, terminale (20h) <br>
-Physique et chimie de lycée
+<b>Outils bureautique et internet</b>, L1 Université de Paris, Cours + TD (24h)
 </li>
 
 </ul>
+
+
+Pendant mon master, j'ai supervisé des Travaux Pratiques de terminale en physique et chimie (20h).

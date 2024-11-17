@@ -15,7 +15,7 @@ ref: teaching
 {% endfor %}
 -->
 
-During my PhD, I taught at Université de Paris:
+During my PhD, I taught at <a href="https://physique.u-paris.fr/">Université de Paris</a> (now Université Paris Cité):
 
 <ul style="list-style-type:disc;">
 
@@ -26,7 +26,7 @@ Heat engines, Introduction to statistical mechanics
 </li>
 
 <li>
-<b>Mathematics</b>, 3rd year Université de Paris, lecture+tutorials (23h) <br>
+<b>Mathematics</b>, 3rd year Université de Paris, lectures + tutorials (23h) <br>
 Matrix calculus, Fourier series and Fourier transforms, Probabilities
 </li>
 
@@ -36,12 +36,12 @@ Mechanics, Electricity, Optics
 </li>
 
 <li>
-<b>Introductory computing</b>, 1st year Université de Paris, lectures+tutorials (24h)
-</li>
-
-<li>
-<b>Lab work</b>, last year high school (20h) <br>
-High school physics and chemistry
+<b>Introductory computing</b>, 1st year Université de Paris, lectures + tutorials (24h)
 </li>
 
 </ul>
+
+During my undergrad, I supervised physics and chemistry lab work in the final year of high school (20h).
+
+
+
