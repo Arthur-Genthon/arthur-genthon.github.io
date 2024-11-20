@@ -25,16 +25,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="174.46452"
+     inkscape:cx="290.93668"
      inkscape:cy="317.58724"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4486"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:window-width="1853"
      inkscape:window-height="1016"
-     inkscape:window-x="163"
-     inkscape:window-y="1107"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <defs
      id="defs930">
@@ -172,7 +172,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -189,7 +189,7 @@
        height="9.6252527"
        width="53.918674"
        id="rect4682-86-9-9-8-0-4-3-7-2-8-8-1-5"
-       style="fill:none;fill-opacity:0.58823494;stroke:#969696;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.80847203, 2.80847203;stroke-dashoffset:0;stroke-opacity:1" />
+       style="fill:none;fill-opacity:0.58823494;stroke:#323232;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.80847203, 2.80847202999999990;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        transform="matrix(0.99999922,-0.00125211,0.00148286,0.9999989,0,0)"
        ry="4.8126135"
@@ -198,7 +198,7 @@
        height="9.625227"
        width="29.818396"
        id="rect4682-86-9-9-8-0-4-3-8-9-5"
-       style="fill:#2d2d2d;fill-opacity:0.59607843;stroke:#2d2d2d;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.8745098" />
+       style="fill:#505050;fill-opacity:0.59615397;stroke:#414141;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.77254903" />
     <path
        inkscape:connector-curvature="0"
        style="fill:#cf00b8;fill-opacity:0.58823494;stroke:#000000;stroke-width:0.49148399;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowTriangleStylized-8-4-9);marker-end:url(#marker6-9-7-1)"
@@ -227,7 +227,7 @@
          x="148.45807"
          y="196.37764">Adder</tspan></text>
     <rect
-       style="fill:none;fill-opacity:0.58823494;stroke:#969696;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.8084905, 2.8084905;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:0.58823494;stroke:#323232;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.8084905, 2.80849050000000000;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4682-86-9-9-8-0-4-3-8-8-0-3-6"
        width="44.471951"
        height="9.6252394"
@@ -236,7 +236,7 @@
        ry="4.8126197"
        transform="matrix(0.99999965,-8.3953662e-4,0.00221157,0.99999755,0,0)" />
     <rect
-       style="fill:#2d2d2d;fill-opacity:0.59615395;stroke:#2d2d2d;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.87390029"
+       style="fill:#505050;fill-opacity:0.59615397;stroke:#414141;stroke-width:0.70212263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.77419353"
        id="rect4682-86-9-9-8-0-4-3-8-1-2"
        width="29.818396"
        height="9.625227"
