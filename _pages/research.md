@@ -32,12 +32,12 @@ Replication is a hallmark of the living world, from DNA to cells and organisms. 
 
    <li>
 <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402">Non Equilibrium Transitions in a Template Copying Ensemble</a>,
-<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, Phys. Rev. Lett. (2025)
+<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, <i>Phys. Rev. Lett.</i> (2025)
    </li>
 
    <li>
 <a href="https://iopscience.iop.org/article/10.1088/1751-8121/ac491a">Branching processes with resetting as a model for cell division</a>,
-<b>A. Genthon</b>, R. Garcia-Garcia, D. Lacoste, J. Phys. A: Math. Theor. (2022)
+<b>A. Genthon</b>, R. Garcia-Garcia, D. Lacoste, <i>J. Phys. A: Math. Theor.</i> (2022)
    </li>
   
   </ul>
@@ -72,7 +72,7 @@ The bio-molecular processes underlying the cell cycle are highly stochastic, whi
 
    <li>
 <a href="https://doi.org/10.1098/rsif.2022.0405">Analytical cell size distribution: lineage-population bias and parameter inference</a>,
-<b>A. Genthon</b>, J. R. Soc. Interface (2022)
+<b>A. Genthon</b>, <i>J. R. Soc. Interface</i> (2022)
    </li>
   
   </ul>
@@ -103,24 +103,23 @@ Quantifying fitness, selection and survival is a fundamental step in any descrip
 
    <li>
 <a href="https://link.aps.org/doi/10.1103/PRXLife.1.013014">Cell Lineage Statistics with Incomplete Population Trees</a>,
-<b>A. Genthon</b>, T. Nozoe, L. Peliti, D. Lacoste, PRX Life (2023)
+<b>A. Genthon</b>, T. Nozoe, L. Peliti, D. Lacoste, <i>PRX Life</i> (2023)
    </li>
 
    <li>
 <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">Universal constraints on selection strength in lineage trees</a>,
-<b>A. Genthon</b>, D. Lacoste, Phys. Rev. Res. (2021)
+<b>A. Genthon</b>, D. Lacoste, <i>Phys. Rev. Res.</i> (2021)
    </li>
   
    <li>
 <a href="https://www.nature.com/articles/s41598-020-68444-x">Fluctuation relations and fitness landscapes of growing cell populations</a>,
-<b>A. Genthon</b>, D. Lacoste,
-Sci. Rep. (2020) 
+<b>A. Genthon</b>, D. Lacoste, <i>Sci. Rep.</i> (2020) 
    </li>
 
    <li>
 <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413">Linking lineage and population observables in biological branching processes</a>,
 R. Garcia-Garcia, <b>A. Genthon</b>, D. Lacoste,
-Phys. Rev. E (2019) 
+<i>Phys. Rev. E</i> (2019) 
    </li>
   </ul>
 
@@ -149,7 +148,7 @@ We study the melting of a defect basepair and its neighbours in an otherwise hom
 
    <li>
 <a href="https://doi.org/10.1063/5.0168915">Equilibrium melting probabilities of a DNA molecule with a defect: An exact solution of the Poland–Scheraga model</a>,
-<b>A. Genthon</b>, A. Dvirnas, T. Ambjörnsson, J. Chem. Phys. (2023)
+<b>A. Genthon</b>, A. Dvirnas, T. Ambjörnsson, <i>J. Chem. Phys.</i> (2023)
    </li>
 
   </ul>
