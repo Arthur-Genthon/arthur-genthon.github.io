@@ -31,8 +31,8 @@ La réplication est caractéristique du monde vivant, de l'ADN aux cellules et a
   <ul style="list-style-type:disc;">
 
    <li>
-<a href="https://arxiv.org/abs/2403.05665">Non Equilibrium Transitions in a Polymer Replication Ensemble</a>,
-<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, arXiv:2403.05665 (2024)
+<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402">Non Equilibrium Transitions in a Template Copying Ensemble</a>,
+<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, PRL (2025)
    </li>
 
    <li>
@@ -72,7 +72,7 @@ Les processus moléculaires du cycle cellulaire sont stochastiques, ce qui gén�
 
    <li>
 <a href="https://doi.org/10.1098/rsif.2022.0405">Analytical cell size distribution: lineage-population bias and parameter inference</a>,
-<b>A. Genthon</b>, J. R. Soc. Interface. (2022)
+<b>A. Genthon</b>, J. R. Soc. Interface (2022)
    </li>
   
   </ul>

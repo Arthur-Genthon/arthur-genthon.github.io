@@ -29,12 +29,11 @@ ref: publi
 
 <div class="pub">
     <span class="mr-5">[9]</span> 
-    <span>Non Equilibrium Transitions in a Polymer Replication Ensemble,<br>
+    <span>Non Equilibrium Transitions in a Template Copying Ensemble,<br>
 	<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill,<br>
-	arXiv:2403.05665 (2024) <a href="http://arxiv.org/abs/2403.05665">[arXiv]</a>
+	Physical Review Letters 134, 068402 (2025) <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402">[journal (OA)]</a>
     </span>
 </div>
-
 
 <div class="pub">
     <span class="mr-5">[8]</span> 

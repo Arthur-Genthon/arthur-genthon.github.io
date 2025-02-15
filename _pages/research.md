@@ -31,8 +31,8 @@ Replication is a hallmark of the living world, from DNA to cells and organisms. 
   <ul style="list-style-type:disc;">
 
    <li>
-<a href="https://arxiv.org/abs/2403.05665">Non Equilibrium Transitions in a Polymer Replication Ensemble</a>,
-<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, arXiv:2403.05665 (2024)
+<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402">Non Equilibrium Transitions in a Template Copying Ensemble</a>,
+<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, PRL (2025)
    </li>
 
    <li>
