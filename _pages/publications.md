@@ -79,7 +79,7 @@ ref: publi
     <span class="mr-5">[4]</span> 
     <span>Universal constraints on selection strength in lineage trees*,<br>
 	<b>A. Genthon</b>, D. Lacoste,<br>
-	<i>Physical Review Research<//i> 3, 023187 (2021) <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">[journal (OA)]</a> 
+	<i>Physical Review Research</i> 3, 023187 (2021) <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">[journal (OA)]</a> 
     </span>
 </div>
 
