@@ -32,7 +32,7 @@ Replication is a hallmark of the living world, from DNA to cells and organisms. 
 
    <li>
 <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402">Non Equilibrium Transitions in a Template Copying Ensemble</a>,
-<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, PRL (2025)
+<b>A. Genthon</b>, C. D. Modes, F. Jülicher, S. W. Grill, Phys. Rev. Lett. (2025)
    </li>
 
    <li>
@@ -72,7 +72,7 @@ The bio-molecular processes underlying the cell cycle are highly stochastic, whi
 
    <li>
 <a href="https://doi.org/10.1098/rsif.2022.0405">Analytical cell size distribution: lineage-population bias and parameter inference</a>,
-<b>A. Genthon</b>, J. R. Soc. Interface. (2022)
+<b>A. Genthon</b>, J. R. Soc. Interface (2022)
    </li>
   
   </ul>
@@ -108,7 +108,7 @@ Quantifying fitness, selection and survival is a fundamental step in any descrip
 
    <li>
 <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187">Universal constraints on selection strength in lineage trees</a>,
-<b>A. Genthon</b>, D. Lacoste, PRR (2021)
+<b>A. Genthon</b>, D. Lacoste, Phys. Rev. Res. (2021)
    </li>
   
    <li>
@@ -120,7 +120,7 @@ Sci. Rep. (2020)
    <li>
 <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413">Linking lineage and population observables in biological branching processes</a>,
 R. Garcia-Garcia, <b>A. Genthon</b>, D. Lacoste,
-PRE (2019) 
+Phys. Rev. E (2019) 
    </li>
   </ul>
 
