@@ -97,7 +97,7 @@ ref: publi
     <span class="mr-5">[2]</span> 
     <span>The concept of velocity in the history of Brownian motion: From physics to mathematics and back,<br>
 	<b>A. Genthon</b>,<br>
-	<i>European Physical Journal</i> H 45, 49-105 (2020) <a href="https://arxiv.org/abs/2006.05399">[arXiv,</a> <a href="https://link.springer.com/article/10.1140/epjh/e2020-10009-8">journal]</a>
+	<i>European Physical Journal H</i> 45, 49-105 (2020) <a href="https://arxiv.org/abs/2006.05399">[arXiv,</a> <a href="https://link.springer.com/article/10.1140/epjh/e2020-10009-8">journal]</a>
     </span>
 </div>
 

@@ -45,7 +45,7 @@ Les sujets abordés incluent la transition des mathématiques à la physique, le
 
    <li>
 <a href="https://link.springer.com/article/10.1140/epjh/e2020-10009-8">The concept of velocity in the history of Brownian motion: From physics to mathematics and back</a>,
-<b>A. Genthon</b>, European Physical Journal H 45, 49-105 (2020)
+<b>A. Genthon</b>, <i>European Physical Journal H</i> 45, 49-105 (2020)
    </li>
   
   </ul>
