@@ -21,9 +21,9 @@ ref: publi
 
 <div class="pub">
     <span class="mr-5">[10]</span> 
-    <span>From noisy cell size control to population growth: when variability can be beneficial,<br>
+    <span>From noisy cell size control to population growth: When variability can be beneficial,<br>
 	<b>A. Genthon</b>,<br>
-	arXiv:2411.08512 (2024) <a href="https://arxiv.org/abs/2411.08512">[arXiv]</a>
+	<i>Physical Review E</i> 111, 034407 (2025), <u>Editors' Suggestion</u> <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.034407">[journal (OA)]</a>
     </span>
 </div>
 

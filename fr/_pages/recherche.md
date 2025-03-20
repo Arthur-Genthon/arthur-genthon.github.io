@@ -66,8 +66,8 @@ Les processus moléculaires du cycle cellulaire sont stochastiques, ce qui gén�
   <ul style="list-style-type:disc;">
 
    <li>
-<a href="https://arxiv.org/abs/2411.08512">From noisy cell size control to population growth: when variability can be beneficial</a>,
-<b>A. Genthon</b>, arXiv:2411.08512 (2024)
+<a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.034407">From noisy cell size control to population growth: When variability can be beneficial</a>,
+<b>A. Genthon</b>, <i>Phys. Rev. E</i> (2025)
    </li>
 
    <li>
