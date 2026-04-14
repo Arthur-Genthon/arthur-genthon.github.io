@@ -66,6 +66,11 @@ Les processus moléculaires du cycle cellulaire sont stochastiques, ce qui gén�
   <ul style="list-style-type:disc;">
 
    <li>
+<a href="https://arxiv.org/abs/2601.05193">Cell size control in bacteria is modulated through extrinsic noise, single-cell- and population-growth</a>,
+<b>A. Genthon</b>, P. Thomas, <i>arXiv:2601.05193</i> (2026)
+   </li>
+
+   <li>
 <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.034407">From noisy cell size control to population growth: When variability can be beneficial</a>,
 <b>A. Genthon</b>, <i>Phys. Rev. E</i> (2025)
    </li>

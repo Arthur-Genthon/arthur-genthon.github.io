@@ -20,6 +20,15 @@ ref: publi
 -->
 
 <div class="pub">
+    <span class="mr-5">[11]</span> 
+    <span>Cell size control in bacteria is modulated through extrinsic noise, single-cell- and population-growth,<br>
+	<b>A. Genthon</b>, P. Thomas<br>
+	<i>arXiv:2601.05193</i> <a href="https://arxiv.org/abs/2601.05193">[arXiv]</a>
+    </span>
+</div>
+
+
+<div class="pub">
     <span class="mr-5">[10]</span> 
     <span>From noisy cell size control to population growth: When variability can be beneficial,<br>
 	<b>A. Genthon</b>,<br>
