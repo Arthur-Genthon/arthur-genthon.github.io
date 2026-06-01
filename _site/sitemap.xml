@@ -72,10 +72,10 @@
 <loc>http://localhost:4000/portfolio/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/publications/</loc>
+<loc>http://localhost:4000/fr/publications/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/fr/publications/</loc>
+<loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/fr/research/</loc>
@@ -115,6 +115,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/talkmap/map.html</loc>
-<lastmod>2020-05-21T00:22:26-07:00</lastmod>
+<lastmod>2026-06-01T10:46:46-07:00</lastmod>
 </url>
 </urlset>

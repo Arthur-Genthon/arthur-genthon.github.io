@@ -31,7 +31,7 @@ ref: home
 
 I am a theoretical physicist working on complex systems inspired by biology, with tools from stochastic processes, statistical physics and thermodynamics.
 
-I am currently a postdoc at the <a href="https://www.pks.mpg.de/">Max Planck Institute for the Physics of Complex Systems</a> in Dresden, Germany. Before that, I obtained my [PhD](https://pastel.archives-ouvertes.fr/tel-03980960) with [David Lacoste](https://www.pct.espci.fr/~david/) at the [Gulliver](https://www.gulliver.espci.fr/?-home-&lang=fr) laboratory in Paris. Besides, I am also invested in [teaching](/teaching/), and fond of [history](/history/) and philosophy of sciences! 
+I am currently a postdoc in <a href="https://amolf.nl/"> AMOLF</a> in Amsterdam, in the group of <a href="https://amolf.nl/research-groups/biochemical-networks">Pieter Rein ten Wolde</a>. Before that, I was an independent postdoc at the <a href="https://www.pks.mpg.de/">Max Planck Institute for the Physics of Complex Systems</a> in Dresden, Germany. I obtained my [PhD](https://pastel.archives-ouvertes.fr/tel-03980960) with [David Lacoste](https://www.pct.espci.fr/~david/) at the [Gulliver](https://www.gulliver.espci.fr/?-home-&lang=fr) laboratory in Paris. Besides, I am also invested in [teaching](/teaching/), and fond of [history](/history/) and philosophy of sciences! 
 
 <div class="small-hidden">
 <i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode with the button in the top right corner! 
@@ -51,5 +51,5 @@ I am currently a postdoc at the <a href="https://www.pks.mpg.de/">Max Planck Ins
 
 <br>
 
-<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  agenthon (at) pks (dot) mpg (dot) de
+<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a.genthon (at) amolf (dot) nl
 
