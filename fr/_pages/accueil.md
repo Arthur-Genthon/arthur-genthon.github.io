@@ -37,4 +37,4 @@ Je suis actuellement postdoc à <a href="https://amolf.nl/"> AMOLF</a>  à Amste
 
 <br/>
 
-<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a.genthon (arobase) amolf (point) nl
+<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a (dot) genthon (at) amolf (dot) nl

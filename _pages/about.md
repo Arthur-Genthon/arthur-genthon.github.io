@@ -51,5 +51,5 @@ I am currently a postdoc in <a href="https://amolf.nl/"> AMOLF</a> in Amsterdam,
 
 <br>
 
-<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a.genthon (at) amolf (dot) nl
+<i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a (dot) genthon (at) amolf (dot) nl
 
