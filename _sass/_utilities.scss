@@ -256,6 +256,22 @@ body:hover .visually-hidden button {
     }
 }
 
+.small-hidden-home{
+    display: none;
+    margin-bottom: 1.3em;
+    @include breakpoint($large){
+        display: block;
+    }
+}
+
+.large-hidden-home{
+    display: inline;
+    margin-bottom: 1.3em;
+    @include breakpoint($large){
+        display: none;
+    }
+}
+
 
 /*
    Icons
@@ -671,3 +687,92 @@ a.reversefootnote {
 }
 
 
+/* ==========================================================================
+   Random picture on homepage
+   ========================================================================== */
+
+figure.home-random-figure {
+  display: block;
+
+  /*
+   * Space ABOVE the whole image/caption block.
+   * Change 2em to whatever you prefer.
+   */
+  margin: 2em auto;
+
+  padding: 0;
+
+  /*
+   * Desktop landscape size.
+   * The height stays automatic, so the picture is never distorted.
+   */
+  &.landscape {
+    /* width: 600px; */
+    width: 80%;
+    max-width: 100%;
+  }
+
+  /*
+   * Desktop portrait size.
+   */
+  &.portrait {
+    /* width: 350px; */
+    width: 50%;
+    max-width: 100%;
+  }
+
+  img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    /*
+     * Important:
+     * Academic Pages normally puts a margin below figure images.
+     * Remove it so the caption touches the picture.
+     */
+    margin: 0;
+    padding: 0;
+  }
+
+  figcaption {
+    display: block;
+
+    /*
+     * No vertical gap between picture and caption.
+     */
+    margin: 0;
+    padding: 0;
+
+    text-align: left;
+    line-height: inherit;
+
+    /* Same font as the normal text on the page */
+    font-family: inherit;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    color: inherit;
+  }
+
+
+  /*
+   * Phone layout
+   *
+   * Makes the picture span the complete viewport width,
+   * independently of whether it is portrait or landscape.
+   */
+  @include breakpoint(max-width $small) {
+    &.landscape,
+    &.portrait {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
