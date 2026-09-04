@@ -61,14 +61,14 @@ document.addEventListener("DOMContentLoaded", function () {
   try {
     previousFile = localStorage.getItem("previousHomeImage");
   } catch (error) {
-    // localStorage may be disabled; random selection still works.
+    /* localStorage may be disabled; random selection still works. */
   }
 
   let availablePictures = pictures.filter(function (picture) {
     return picture.file !== previousFile;
   });
 
-  // Necessary when there is only one picture.
+  /* Necessary when there is only one picture. */
   if (availablePictures.length === 0) {
     availablePictures = pictures;
   }
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selectedPicture.file
     );
   } catch (error) {
-    // Nothing to do if localStorage is unavailable.
+    /* Nothing to do if localStorage is unavailable. */
   }
 
 });
