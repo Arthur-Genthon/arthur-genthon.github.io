@@ -47,7 +47,7 @@ I am currently a postdoc in <a href="https://amolf.nl/"> AMOLF</a> in Amsterdam,
 document.addEventListener("DOMContentLoaded", function () {
 
   const pictures = {{ site.data.home_images | jsonify }};
-  const imageBase = "{{ '/images/homepage/' | relative_url }}";
+  const imageBase = "{{ '/images/homepage_web/' | relative_url }}";
 
   if (!Array.isArray(pictures) || pictures.length === 0) {
     return;
