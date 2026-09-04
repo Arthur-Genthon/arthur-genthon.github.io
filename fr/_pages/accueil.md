@@ -20,7 +20,7 @@ Je suis actuellement postdoc à <a href="https://amolf.nl/"> AMOLF</a>  à Amste
 
 <!---  Random picture -->
 
-<figure id="home-random-figure" class="home-random-figure" hidden>
+<figure id="home-random-figure" class="home-random-figure is-loading">
   <img id="home-random-image" src="" alt="">
   <figcaption id="home-random-caption"></figcaption>
 </figure>
@@ -73,16 +73,30 @@ document.addEventListener("DOMContentLoaded", function () {
    * Detect automatically whether the selected image is
    * portrait or landscape.
    */
-  image.addEventListener("load", function () {
+   
+  image.addEventListener("load", async function () {
 
-    if (image.naturalHeight > image.naturalWidth) {
-      figure.classList.add("portrait");
-    } else {
-      figure.classList.add("landscape");
+  if (image.naturalHeight > image.naturalWidth) {
+    figure.classList.add("portrait");
+  } else {
+    figure.classList.add("landscape");
+  }
+
+  /*
+   * Wait until the browser has completely decoded the image
+   * before making it visible.
+   */
+  if (image.decode) {
+    try {
+      await image.decode();
+    } catch (error) {
+      /* Continue even if decode() is unavailable or fails. */
     }
+  }
 
-    figure.hidden = false;
-  }, { once: true });
+  figure.classList.remove("is-loading");
+
+}, { once: true });
 
   image.src = imageBase + selectedPicture.file;
 
