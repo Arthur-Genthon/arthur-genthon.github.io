@@ -691,6 +691,7 @@ a.reversefootnote {
    Random picture on homepage
    ========================================================================== */
 
+
 figure.home-random-figure {
   display: block;
 
@@ -775,4 +776,9 @@ figure.home-random-figure {
       height: auto;
     }
   }
+}
+
+
+figure.home-random-figure[hidden] {
+  display: none;
 }
