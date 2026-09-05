@@ -6,6 +6,10 @@
   caption: "Amsterdam, 2026"
   alt: "Amsterdam, 2026"
   
+- file: "amsterdam2_2026.JPG"
+  caption: "Amsterdam, 2026"
+  alt: "Amsterdam, 2026"
+  
 - file: "arcs1_2026.jpg"
   caption: "Champagny en Vanoise, 2026"
   alt: "Champagny en Vanoise, 2026"
@@ -50,6 +54,14 @@
   caption: "Avrillé, 2018"
   alt: "Avrillé, 2018"
   
+- file: "avrille3_2018.JPG"
+  caption: "Avrillé, 2018"
+  alt: "Avrillé, 2018"
+
+- file: "besancon_2024.JPG"
+  caption: "A thirsty boi, Besançon, 2024"
+  alt: "A thirsty boi, Besançon, 2024"
+  
 - file: "billard_2018.jpg"
   caption: "Angers, 2018"
   alt: "Angers, 2018"
@@ -63,8 +75,8 @@
   alt: "A nibbling boi, Montréal, 2024"
   
 - file: "canada2_2024.JPG"
-  caption: "Facing Fleuve Saint-Larent, Canada, 2024"
-  alt: "Facing Fleuve Saint-Larent, Canada, 2024"
+  caption: "Facing Fleuve Saint-Laurent, Lévis, Canada, 2024"
+  alt: "Facing Fleuve Saint-Laurent, Lévis, Canada, 2024"
   
 - file: "canada3_2024.JPG"
   caption: "Canada, 2024"
@@ -86,6 +98,10 @@
   caption: "A gluttonous boi, Santa Marta, Colombia, 2019"
   alt: "A gluttonous boi, Santa Marta, Colombia, 2019"
   
+- file: "colombie2_2019.JPG"
+  caption: "Colombia, 2019"
+  alt: "Colombia, 2019"
+  
 - file: "dresden_2025.jpg"
   caption: "Dresden, 2025"
   alt: "Dresden, 2025" 
@@ -95,6 +111,14 @@
   alt: "Dresden, 2025"  
   
 - file: "dresden2_2025.JPG"
+  caption: "Dresden, 2025"
+  alt: "Dresden, 2025"  
+  
+- file: "dresden3_2025.JPG"
+  caption: "Dresden, 2025"
+  alt: "Dresden, 2025"  
+  
+- file: "dresden4_2025.JPG"
   caption: "Dresden, 2025"
   alt: "Dresden, 2025"  
   
@@ -141,6 +165,10 @@
 - file: "paris_2020.jpg"
   caption: "Paris, 2020"
   alt: "Paris, 2020"
+  
+- file: "paris_2026.jpg"
+  caption: "Paris, 2026"
+  alt: "Paris, 2026"
   
 - file: "strasbourg_2020.JPG"
   caption: "Strasbourg, 2020"
