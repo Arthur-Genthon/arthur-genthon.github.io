@@ -58,6 +58,18 @@
   caption: "Paris, 2021"
   alt: "Paris, 2021"
   
+- file: "canada1_2024.JPG"
+  caption: "A nibbling boi, Montréal, 2024"
+  alt: "A nibbling boi, Montréal, 2024"
+  
+- file: "canada2_2024.JPG"
+  caption: "Facing Fleuve Saint-Larent, Canada, 2024"
+  alt: "Facing Fleuve Saint-Larent, Canada, 2024"
+  
+- file: "canada3_2024.JPG"
+  caption: "Canada, 2024"
+  alt: "Canada, 2024"
+  
 - file: "cantenay_2025.jpg"
   caption: "La Mayenne, Cantenay-Epinard, 2025"
   alt: "Cantenay-Epinard, 2025"
@@ -93,10 +105,26 @@
 - file: "dresden2_2023.JPG"
   caption: "Dresden, 2023"
   alt: "Dresden, 2023"
+
+- file: "dresden3_2023.JPG"
+  caption: "Dresden, 2023"
+  alt: "Dresden, 2023"
   
 - file: "gorgonzola_2020.JPG"
   caption: "Gorgonzola, Arcueil, 2020"
   alt: "Gorgonzola, Arcueil, 2020"
+  
+- file: "lugrin1_2024.JPG"
+  caption: '<a href="https://www.google.com/maps/@46.3887789,6.6913504,913a,30y,299.49h,88.65t/data=!3m7!1e1!3m5!1s0PQKG7ZktU8gBa5yIGwgUg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.3487789352990944%26panoid%3D0PQKG7ZktU8gBa5yIGwgUg%26yaw%3D299.4863091279658!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D">An ageless boi</a>, Thollon-les-Mémises, 2024'
+  alt: "Thollon-les-Mémises, 2024"
+  
+- file: "lugrin2_2024.JPG"
+  caption: "Lake Geneva, 2024"
+  alt: "Lake Geneva, 2024"
+  
+- file: "meduse_2020.jpg"
+  caption: "Le mystère des faluns, Doué-en-Anjou, 2020"
+  alt: "Le mystère des faluns, Doué-en-Anjou, 2020"
   
 - file: "palma1_2025.jpg"
   caption: "Palma de Mallorca, 2025"
@@ -118,26 +146,3 @@
   caption: "Strasbourg, 2020"
   alt: "Strasbourg, 2020"
   
-- file: "meduse_2020.jpg"
-  caption: "Le mystère des faluns, Doué-en-Anjou, 2020"
-  alt: "Le mystère des faluns, Doué-en-Anjou, 2020"
-  
-- file: "lugrin1_2024.JPG"
-  caption: '<a href="https://www.google.com/maps/@46.3887789,6.6913504,913a,30y,299.49h,88.65t/data=!3m7!1e1!3m5!1s0PQKG7ZktU8gBa5yIGwgUg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.3487789352990944%26panoid%3D0PQKG7ZktU8gBa5yIGwgUg%26yaw%3D299.4863091279658!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D">An ageless boi</a>, Thollon-les-Mémises, 2024'
-  alt: "Thollon-les-Mémises, 2024"
-  
-- file: "lugrin2_2024.JPG"
-  caption: "Lake Geneva, 2024"
-  alt: "Lake Geneva, 2024"
-  
-- file: "canada1_2024.JPG"
-  caption: "A nibbling boi, Montréal, 2024"
-  alt: "A nibbling boi, Montréal, 2024"
-  
-- file: "canada2_2024.JPG"
-  caption: "Facing Fleuve Saint-Larent, Canada, 2024"
-  alt: "Facing Fleuve Saint-Larent, Canada, 2024"
-  
-- file: "canada3_2024.JPG"
-  caption: "Canada, 2024"
-  alt: "Canada, 2024"
