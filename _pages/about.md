@@ -2,6 +2,7 @@
 permalink: /
 title: "Hello!"
 layout: single
+seo_title: "Arthur Genthon"
 toc: true
 toc_label: "News"
 excerpt: "About me"

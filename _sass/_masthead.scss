@@ -19,7 +19,13 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-/*    padding: 1em 1em 1em; */
+
+    /* Match the horizontal padding used by #main.
+    This keeps "Arthur Genthon" away from the viewport edge on
+    small screens and aligned with the sidebar on larger screens. */
+    padding-left: 1em;
+    padding-right: 1em;
+  
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {

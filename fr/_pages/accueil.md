@@ -1,6 +1,7 @@
 ---
 permalink: /fr/
 title: "Hello !"
+seo_title: "Arthur Genthon"
 layout: single
 toc: true
 toc_label: "News"
