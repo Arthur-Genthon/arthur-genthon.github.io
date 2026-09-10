@@ -203,6 +203,13 @@
   }
 }
 
+:root[color-mode="dark"] .author__urls-wrapper > button {
+  background-color: #444;
+  color: #EBEBEB !important;
+  border-color: #555;
+}
+
+
 .author__urls {
   display: none;
   position: absolute;
