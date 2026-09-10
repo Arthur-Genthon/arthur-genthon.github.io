@@ -27,8 +27,8 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
-    // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
+    var show = $(".author__urls-wrapper > button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper > button").is(":visible");
+    // console.log("has button: " + $(".author__urls-wrapper > button").length === 0);
     // console.log("Window Width: " + windowWidth);
     // console.log("show: " + show);
     //old code was if($(window).width() > 1024)
@@ -52,9 +52,43 @@ $(document).ready(function(){
 
   // Follow menu drop down
 
-  $(".author__urls-wrapper button").on("click", function() {
+  $(".author__urls-wrapper > button").on("click", function() {
     $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper button").toggleClass("open");
+    $(".author__urls-wrapper > button").toggleClass("open");
+  });
+  
+    // Settings menu dropdown
+  $(".settings-menu__button").on("click", function(e) {
+    e.stopPropagation();
+
+    var $menu = $(".settings-menu__dropdown");
+    var opening = $menu.hasClass("hidden");
+
+    $menu.toggleClass("hidden");
+
+    $(this).attr("aria-expanded", opening ? "true" : "false");
+
+    // Close the navigation burger if it is open
+    $("#site-nav .hidden-links").addClass("hidden");
+    $("#site-nav > button")
+      .removeClass("close")
+      .attr("aria-expanded", "false");
+  });
+
+
+  // Close settings menu after choosing the theme
+  $(".settings-menu__dropdown .color-mode__btn").on("click", function() {
+    $(".settings-menu__dropdown").addClass("hidden");
+    $(".settings-menu__button").attr("aria-expanded", "false");
+  });
+
+
+  // Close settings menu when clicking elsewhere
+  $(document).on("click", function(e) {
+    if (!$(e.target).closest(".settings-menu").length) {
+      $(".settings-menu__dropdown").addClass("hidden");
+      $(".settings-menu__button").attr("aria-expanded", "false");
+    }
   });
 
 

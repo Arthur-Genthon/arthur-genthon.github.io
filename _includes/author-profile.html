@@ -63,11 +63,12 @@
       {% endif %}
 
 
+<!-- The following has been moved to the masthead with a gear dropdown menu even for small screens 
+
 <div class="large-hidden">
 <li> <hr> </li>
 <li>
-
-    <!-- Language selector -->
+    
     {% if page.layout != 'index' %}
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% if posts.size == 0 %}
@@ -85,11 +86,11 @@
 </li>
 
     <li>
-    <!-- light mode button -->
+   
     <button
         class="color-mode__btn btn-list light--hidden"
         aria-label="Toggle light mode" >
-        <!-- Toggle Light Mode -->
+        
 	<svg aria-hidden="true">
            <title>Light Mode</title>
            <use href="#sun"></use>	
@@ -97,11 +98,11 @@
 	 Light mode
     </button>
 
-    <!-- dark mode button -->
+    
     <button
         class="color-mode__btn btn-list dark--hidden"
         aria-label="Toggle dark mode">
-         <!-- Toggle Dark Mode -->
+         
           <svg aria-hidden="true">
             <title>Dark Mode</title>
             <use href="#moon"></use>
@@ -110,6 +111,9 @@
     </button>
     </li>
 </div>
+
+-->
+
 
 <!-- Other social
 
