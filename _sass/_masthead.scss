@@ -45,14 +45,19 @@
 .masthead__menu {
   position: relative;
 
-  /* Reserve room for the settings button on small screens.
-  This automatically shifts the hamburger button to its left.  */
+  /* On large screens, restore the old behaviour:
+     absolute language/theme controls are positioned relative
+     to the full masthead/viewport, not the centered menu. */
+  @include breakpoint($large) {
+    position: static;
+  }
+
+  /* Leave room for gear button + a small gap on small screens */
   #site-nav {
-    margin-right: 2.5rem;
+    margin-right: calc(2.5rem + 0.25rem);
 
     @include breakpoint($large) {
-      /* Reserve room for the standalone language/theme controls. */
-      margin-right: 5.5rem;
+      margin-right: 0;
     }
   }
 
@@ -77,12 +82,12 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
 .masthead__theme-btn {
   position: absolute;
   top: 6px;
-  right: 0;
+  right: 1em;
   z-index: 30;
   display: none;
 
   @include breakpoint($large) {
-    display: flex;
+    display: block;
   }
 }
 
@@ -147,7 +152,7 @@ and font-size vs width in .color-mode__btn svg {} in _sass/colors/button_specs, 
   outline: none;
 
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--background-color);
 
   cursor: pointer;
 

@@ -265,8 +265,8 @@ body:hover .visually-hidden button {
 }
 
 .large-hidden-home{
-    display: inline;
-    margin-bottom: 1.3em;
+    display: block;
+    margin-bottom: 1em;
     @include breakpoint($large){
         display: none;
     }

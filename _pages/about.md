@@ -144,12 +144,11 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <div class="large-hidden-home">
-<i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode with the button in the drop-down menu "More"! 
+<i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode in the menu <i class="fas fa-cog" aria-hidden="true"></i>
 
 <br/>
 
-🇫🇷  Ce site est disponible en français, en cliquant sur le drapeau dans le menu déroulant "More" !
+🇫🇷  Ce site est disponible en français dans le menu <i class="fas fa-cog" aria-hidden="true"></i>
 </div>
-
 
 <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a (dot) genthon (at) amolf (dot) nl

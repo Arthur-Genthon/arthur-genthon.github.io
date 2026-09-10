@@ -15,11 +15,18 @@
 
 
 
+<!-- Comment out to avoid having "Hello" in the google search
+
+-->
 
 
 
 
-<title>Hello! - Arthur Genthon</title>
+
+
+
+
+<title>Arthur Genthon</title>
 
 
 
@@ -29,7 +36,12 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Arthur Genthon">
+
+<!-- Comment out to avoid having "Hello" in the google search
 <meta property="og:title" content="Hello!">
+-->
+
+<meta property="og:title" content="Arthur Genthon">
 
 
   <link rel="canonical" href="http://localhost:4000/">
@@ -69,6 +81,8 @@
   </script>
 
 
+
+  <meta name="google-site-verification" content="NVLCCDxpxk33-GWGlrZO37J7pEIqQHWyvQLVLlEDfrk" />
 
 
 
@@ -190,77 +204,82 @@ $(document).ready(function(){
 <![endif]-->
     
 
+
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button>
+          <div class="navicon"></div>
+        </button>
+
         <ul class="visible-links">
 
           <!-- Main home button to fr or en page based on presence of /fr/ in page.url -->
           
 
           
-            <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Arthur Genthon</a></li>    
+            <li class="masthead__menu-item masthead__menu-item--lg">
+              <a href="http://localhost:4000/">Arthur Genthon</a>
+            </li>
           
 
-	  
+          
+
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
             
 
             
-              <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Research</a></li>
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/research/">Research</a>
+              </li>
             
 
           
+
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
             
 
             
-              <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/publications/">Publications</a>
+              </li>
             
 
           
+
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
             
 
             
-              <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/teaching/">Teaching</a>
+              </li>
             
 
           
+
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
             
 
             
-              <li class="masthead__menu-item"><a href="http://localhost:4000/history/">History</a></li>
+              <li class="masthead__menu-item">
+                <a href="http://localhost:4000/history/">History</a>
+              </li>
             
 
           
-            
 
-            <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
-            
-
-            
-
-          
-            
-
-            <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
-            
-
-            
-
-          
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
@@ -269,6 +288,25 @@ $(document).ready(function(){
             
 
           
+
+            
+
+            <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
+            
+
+            
+
+          
+
+            
+
+            <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
+            
+
+            
+
+          
+
             
 
             <!-- Display only fr or only en tabs based on presence of /fr/ in page.url -->
@@ -278,72 +316,143 @@ $(document).ready(function(){
 
           
         </ul>
-        <ul class="hidden-links hidden"></ul>        
+
+        <ul class="hidden-links hidden"></ul>
       </nav>
 
-    <!-- Language selector -->
-    
-    
-    
-    
-	<div class="lang-btn">
-        
-        <a href="/" class="en" title="View in en">🇬🇧 </a> 
-        
-        <a href="/fr/" class="fr" title="View in fr">🇫🇷 </a> 
-        
+
+      <!-- SVG definitions for light/dark buttons -->
+      <svg style="display: none;">
+        <symbol viewBox="0 0 24 24" id="moon">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </symbol>
+
+        <symbol viewBox="0 0 24 24" id="sun">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </symbol>
+      </svg>
+
+
+      <!-- Large-screen language selector -->
+      
+        <div class="masthead__lang-btn">
+          
+            <a
+              href="http://localhost:4000/"
+              class="en"
+              title="English">
+              🇬🇧
+            </a>
+          
+            <a
+              href="http://localhost:4000/fr/"
+              class="fr"
+              title="Français">
+              🇫🇷
+            </a>
+          
         </div>
-    
+      
 
 
-    <!-- light/dark mode switch button style -->
-    <svg style="display: none;">
-      <symbol viewBox="0 0 24 24" id="moon">
-        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-      </symbol>
-      <symbol viewBox="0 0 24 24" id="sun">
-        <circle cx="12" cy="12" r="5"></circle>
-        <line x1="12" y1="1" x2="12" y2="3"></line>
-        <line x1="12" y1="21" x2="12" y2="23"></line>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-        <line x1="1" y1="12" x2="3" y2="12"></line>
-        <line x1="21" y1="12" x2="23" y2="12"></line>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-      </symbol>
-    </svg>
+      <!-- Large-screen light mode button -->
+      <button
+        class="color-mode__btn masthead__theme-btn light--hidden"
+        aria-label="Toggle light mode">
+        <svg aria-hidden="true">
+          <title>Light Mode</title>
+          <use href="#sun"></use>
+        </svg>
+      </button>
 
-    <!-- light mode button -->
-    <button
-        class="color-mode__btn light--hidden"
-        aria-label="Toggle light mode" >
-        <!-- Toggle Light Mode -->
-	<svg aria-hidden="true">
-           <title>Light Mode</title>
-           <use href="#sun"></use>	
-         </svg> 
-    </button>
 
-    <!-- dark mode button -->
-    <button
-        class="color-mode__btn dark--hidden"
+      <!-- Large-screen dark mode button -->
+      <button
+        class="color-mode__btn masthead__theme-btn dark--hidden"
         aria-label="Toggle dark mode">
-         <!-- Toggle Dark Mode -->
-          <svg aria-hidden="true">
-            <title>Dark Mode</title>
-            <use href="#moon"></use>
-          </svg>
-    </button>
+        <svg aria-hidden="true">
+          <title>Dark Mode</title>
+          <use href="#moon"></use>
+        </svg>
+      </button>
 
 
-    </div> 
+      <!-- Small-screen settings dropdown -->
+      <div class="settings-menu">
+
+        <button
+          type="button"
+          class="settings-menu__button"
+          aria-label="Settings"
+          aria-expanded="false">
+          <i class="fas fa-cog" aria-hidden="true"></i>
+        </button>
+
+        <ul class="settings-menu__dropdown hidden">
+
+          <!-- Languages -->
+          
+            
+              <li>
+                <a
+                  href="http://localhost:4000/"
+                  class="settings-menu__flag"
+                  title="English"
+                  aria-label="View in English">
+                  🇬🇧
+                </a>
+              </li>
+            
+              <li>
+                <a
+                  href="http://localhost:4000/fr/"
+                  class="settings-menu__flag"
+                  title="Français"
+                  aria-label="View in Français">
+                  🇫🇷
+                </a>
+              </li>
+            
+          
+
+
+          <!-- Light/dark mode -->
+          <li class="settings-menu__theme-item">
+
+            <button
+              class="color-mode__btn settings-menu__theme light--hidden"
+              aria-label="Switch to light mode">
+              <svg aria-hidden="true">
+                <title>Light Mode</title>
+                <use href="#sun"></use>
+              </svg>
+            </button>
+
+            <button
+              class="color-mode__btn settings-menu__theme dark--hidden"
+              aria-label="Switch to dark mode">
+              <svg aria-hidden="true">
+                <title>Dark Mode</title>
+                <use href="#moon"></use>
+              </svg>
+            </button>
+
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
   </div>
 </div>
-
-
-
-
 
     
 
@@ -407,11 +516,12 @@ $(document).ready(function(){
       
 
 
+<!-- The following has been moved to the masthead with a gear dropdown menu even for small screens 
+
 <div class="large-hidden">
 <li> <hr> </li>
 <li>
-
-    <!-- Language selector -->
+    
     
     
     
@@ -429,11 +539,11 @@ $(document).ready(function(){
 </li>
 
     <li>
-    <!-- light mode button -->
+   
     <button
         class="color-mode__btn btn-list light--hidden"
         aria-label="Toggle light mode" >
-        <!-- Toggle Light Mode -->
+        
 	<svg aria-hidden="true">
            <title>Light Mode</title>
            <use href="#sun"></use>	
@@ -441,11 +551,11 @@ $(document).ready(function(){
 	 Light mode
     </button>
 
-    <!-- dark mode button -->
+    
     <button
         class="color-mode__btn btn-list dark--hidden"
         aria-label="Toggle dark mode">
-         <!-- Toggle Dark Mode -->
+         
           <svg aria-hidden="true">
             <title>Dark Mode</title>
             <use href="#moon"></use>
@@ -454,6 +564,9 @@ $(document).ready(function(){
     </button>
     </li>
 </div>
+
+-->
+
 
 <!-- Other social
 
@@ -601,7 +714,7 @@ $(document).ready(function(){
 
 <!---  Random picture -->
 
-<figure id="home-random-figure" class="home-random-figure" hidden="">
+<figure id="home-random-figure" class="home-random-figure" style="display: none;">
   <img id="home-random-image" src="" alt="" />
   <figcaption id="home-random-caption"></figcaption>
 </figure>
@@ -609,8 +722,8 @@ $(document).ready(function(){
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  const pictures = [{"file":"amsterdam_2025.jpg","caption":"Amsterdam, 2025","alt":"Amsterdam, 2025"},{"file":"amsterdam_2026.jpg","caption":"Amsterdam, 2026","alt":"Amsterdam, 2026"},{"file":"arcs1_2026.jpg","caption":"Champagny en Vanoise, 2026","alt":"Champagny en Vanoise, 2026"},{"file":"arcs2_2026.jpg","caption":"Les Arcs, 2026","alt":"Les Arcs, 2026"},{"file":"arcueil1_2021.JPG","caption":"Arcueil, 2021","alt":"Arcueil, 2021"},{"file":"arcueil2_2021.JPG","caption":"Arcueil, 2021","alt":"Arcueil, 2021"},{"file":"atelier_lumieres_2025.jpg","caption":"Atelier des lumières, Paris, 2025","alt":"Atelier des lumières, Paris, 2025"},{"file":"aussois_2021.JPG","caption":"Aussois, 2021","alt":"Aussois, 2021"},{"file":"avignon1_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avignon2_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avignon3_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avrille1_2018.JPG","caption":"Avrillé, 2018","alt":"Avrillé, 2018"},{"file":"avrille2_2018.JPG","caption":"Avrillé, 2018","alt":"Avrillé, 2018"},{"file":"billard_2018.jpg","caption":"Angers, 2018","alt":"Angers, 2018"},{"file":"boulogne_2021.JPG","caption":"Paris, 2021","alt":"Paris, 2021"},{"file":"cantenay_2025.jpg","caption":"La Mayenne, Cantenay-Epinard, 2025","alt":"Cantenay-Epinard, 2025"},{"file":"chicago_2022.jpg","caption":"Chicago, 2022","alt":"Chicago, 2022"},{"file":"collioure_2025.JPG","caption":"A watchful boi, Collioure, 2025","alt":"A watchful boi, Collioure, 2025"},{"file":"colombie_2019.jpg","caption":"A gluttonous boi, Santa Marta, Colombia, 2019","alt":"A gluttonous boi, Santa Marta, Colombia, 2019"},{"file":"dresden_2025.jpg","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden1_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden2_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden1_2023.JPG","caption":"Dresden, 2023","alt":"Dresden, 2023"},{"file":"dresden2_2023.JPG","caption":"Dresden, 2023","alt":"Dresden, 2023"},{"file":"gorgonzola_2020.JPG","caption":"Gorgonzola, Arcueil, 2020","alt":"Gorgonzola, Arcueil, 2020"},{"file":"palma1_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"palma2_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"palma3_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"paris_2020.jpg","caption":"Paris, 2020","alt":"Paris, 2020"},{"file":"strasbourg_2020.jpg","caption":"Strasbourg, 2020","alt":"Strasbourg, 2020"},{"file":"meduse_2020.jpg","caption":"Le mystère des faluns, Doué-en-Anjou, 2020","alt":"Le mystère des faluns, Doué-en-Anjou, 2020"},{"file":"lugrin1_2024.JPG","caption":"<a href=\"https://www.google.com/maps/@46.3887789,6.6913504,913a,30y,299.49h,88.65t/data=!3m7!1e1!3m5!1s0PQKG7ZktU8gBa5yIGwgUg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.3487789352990944%26panoid%3D0PQKG7ZktU8gBa5yIGwgUg%26yaw%3D299.4863091279658!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D\">An ageless boi</a>, Thollon-les-Mémises, 2024","alt":"Thollon-les-Mémises, 2024"},{"file":"lugrin2_2024.JPG","caption":"Lake Geneva, 2024","alt":"Lake Geneva, 2024"},{"file":"canada1_2024.JPG","caption":"A nibbling boi, Montréal, 2024","alt":"A nibbling boi, Montréal, 2024"},{"file":"canada2_2024.JPG","caption":"Facing Fleuve Saint-Larent, Canada, 2024","alt":"Facing Fleuve Saint-Larent, Canada, 2024"},{"file":"canada3_2024.JPG","caption":"Canada, 2024","alt":"Canada, 2024"}];
-  const imageBase = "/images/homepage/";
+  const pictures = [{"file":"amsterdam_2025.jpg","caption":"Amsterdam, 2025","alt":"Amsterdam, 2025"},{"file":"amsterdam_2026.jpg","caption":"Amsterdam, 2026","alt":"Amsterdam, 2026"},{"file":"amsterdam2_2026.JPG","caption":"Amsterdam, 2026","alt":"Amsterdam, 2026"},{"file":"arcs1_2026.jpg","caption":"Champagny-en-Vanoise, 2026","alt":"Champagny-en-Vanoise, 2026"},{"file":"arcs2_2026.jpg","caption":"Les Arcs, 2026","alt":"Les Arcs, 2026"},{"file":"arcueil1_2021.JPG","caption":"Arcueil, 2021","alt":"Arcueil, 2021"},{"file":"arcueil2_2021.JPG","caption":"Arcueil, 2021","alt":"Arcueil, 2021"},{"file":"atelier_lumieres_2025.jpg","caption":"Atelier des lumières, Paris, 2025","alt":"Atelier des lumières, Paris, 2025"},{"file":"aussois_2021.JPG","caption":"Aussois, 2021","alt":"Aussois, 2021"},{"file":"avignon1_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avignon2_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avignon3_2018.jpg","caption":"Avignon, 2018","alt":"Avignon, 2018"},{"file":"avrille1_2018.JPG","caption":"Avrillé, 2018","alt":"Avrillé, 2018"},{"file":"avrille2_2018.JPG","caption":"Avrillé, 2018","alt":"Avrillé, 2018"},{"file":"avrille3_2018.JPG","caption":"Avrillé, 2018","alt":"Avrillé, 2018"},{"file":"besancon_2024.JPG","caption":"A thirsty boi, Besançon, 2024","alt":"A thirsty boi, Besançon, 2024"},{"file":"billard_2018.jpg","caption":"Angers, 2018","alt":"Angers, 2018"},{"file":"boulogne_2021.JPG","caption":"Paris, 2021","alt":"Paris, 2021"},{"file":"canada1_2024.JPG","caption":"A nibbling boi, Montréal, 2024","alt":"A nibbling boi, Montréal, 2024"},{"file":"canada2_2024.JPG","caption":"Facing Fleuve Saint-Laurent, Lévis, Canada, 2024","alt":"Facing Fleuve Saint-Laurent, Lévis, Canada, 2024"},{"file":"canada3_2024.JPG","caption":"Hike around Québec, Canada, 2024","alt":"Hike around Québec, Canada, 2024"},{"file":"cantenay_2025.jpg","caption":"La Mayenne, Cantenay-Epinard, 2025","alt":"Cantenay-Epinard, 2025"},{"file":"chicago_2022.jpg","caption":"Chicago, 2022","alt":"Chicago, 2022"},{"file":"collioure_2025.JPG","caption":"A watchful boi, Collioure, 2025","alt":"A watchful boi, Collioure, 2025"},{"file":"colombie_2019.jpg","caption":"A gluttonous boi, Santa Marta, Colombia, 2019","alt":"A gluttonous boi, Santa Marta, Colombia, 2019"},{"file":"colombie2_2019.JPG","caption":"Cocora Valley, Colombia, 2019","alt":"Cocora Valley, Colombia, 2019"},{"file":"dresden_2025.jpg","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden1_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden2_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden3_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden4_2025.JPG","caption":"Dresden, 2025","alt":"Dresden, 2025"},{"file":"dresden1_2023.JPG","caption":"Dresden, 2023","alt":"Dresden, 2023"},{"file":"dresden2_2023.JPG","caption":"Dresden, 2023","alt":"Dresden, 2023"},{"file":"dresden3_2023.JPG","caption":"Dresden, 2023","alt":"Dresden, 2023"},{"file":"gorgonzola_2020.JPG","caption":"Gorgonzola, Arcueil, 2020","alt":"Gorgonzola, Arcueil, 2020"},{"file":"lugrin1_2024.JPG","caption":"<a href=\"https://www.google.com/maps/@46.3887789,6.6913504,913a,30y,299.49h,88.65t/data=!3m7!1e1!3m5!1s0PQKG7ZktU8gBa5yIGwgUg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.3487789352990944%26panoid%3D0PQKG7ZktU8gBa5yIGwgUg%26yaw%3D299.4863091279658!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D\">An ageless boi</a>, Thollon-les-Mémises, 2024","alt":"Thollon-les-Mémises, 2024"},{"file":"lugrin2_2024.JPG","caption":"Lake Geneva, 2024","alt":"Lake Geneva, 2024"},{"file":"meduse_2020.jpg","caption":"Le mystère des faluns, Doué-en-Anjou, 2020","alt":"Le mystère des faluns, Doué-en-Anjou, 2020"},{"file":"palma1_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"palma2_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"palma3_2025.jpg","caption":"Palma de Mallorca, 2025","alt":"Palma de Mallorca, 2025"},{"file":"paris_2020.jpg","caption":"Paris, 2020","alt":"Paris, 2020"},{"file":"paris_2026.jpg","caption":"Hidden gem, Paris, 2026","alt":"Hidden gem, Paris, 2026"},{"file":"strasbourg_2020.JPG","caption":"Strasbourg, 2020","alt":"Strasbourg, 2020"}];
+  const imageBase = "/images/homepage_web/";
 
   if (!Array.isArray(pictures) || pictures.length === 0) {
     return;
@@ -626,14 +739,14 @@ document.addEventListener("DOMContentLoaded", function () {
   try {
     previousFile = localStorage.getItem("previousHomeImage");
   } catch (error) {
-    // localStorage may be disabled; random selection still works.
+    /* localStorage may be disabled; random selection still works. */
   }
 
   let availablePictures = pictures.filter(function (picture) {
     return picture.file !== previousFile;
   });
 
-  // Necessary when there is only one picture.
+  /* Necessary when there is only one picture. */
   if (availablePictures.length === 0) {
     availablePictures = pictures;
   }
@@ -654,16 +767,31 @@ document.addEventListener("DOMContentLoaded", function () {
    * Detect automatically whether the selected image is
    * portrait or landscape.
    */
-  image.addEventListener("load", function () {
+  image.addEventListener("load", async function () {
 
-    if (image.naturalHeight > image.naturalWidth) {
-      figure.classList.add("portrait");
-    } else {
-      figure.classList.add("landscape");
+  /* Determine the final size first. */
+  if (image.naturalHeight > image.naturalWidth) {
+    figure.classList.add("portrait");
+  } else {
+    figure.classList.add("landscape");
+  }
+
+  /*
+   * Wait until the browser has fully decoded the image.
+   * This avoids seeing a progressive top-to-bottom JPEG render.
+   */
+  if (image.decode) {
+    try {
+      await image.decode();
+    } catch (error) {
+      /* If decode() fails, still display the loaded image. */
     }
+  }
 
-    figure.hidden = false;
-  }, { once: true });
+  /* Only now make the complete figure visible. */
+  figure.style.display = "block";
+
+}, { once: true });
 
   image.src = imageBase + selectedPicture.file;
 
@@ -673,7 +801,7 @@ document.addEventListener("DOMContentLoaded", function () {
       selectedPicture.file
     );
   } catch (error) {
-    // Nothing to do if localStorage is unavailable.
+    /* Nothing to do if localStorage is unavailable. */
   }
 
 });
@@ -690,11 +818,11 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <div class="large-hidden-home">
-<i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode with the button in the drop-down menu "More"! 
+<i class="fas fa-lightbulb" aria-hidden="true"></i>  You can switch between dark and light mode in the menu <i class="fas fa-cog" aria-hidden="true"></i>
 
 <br />
 
-🇫🇷  Ce site est disponible en français, en cliquant sur le drapeau dans le menu déroulant "More" !
+🇫🇷  Ce site est disponible en français dans le menu <i class="fas fa-cog" aria-hidden="true"></i>
 </div>
 
 <p><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a (dot) genthon (at) amolf (dot) nl</p>

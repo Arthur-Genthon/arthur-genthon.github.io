@@ -128,11 +128,11 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <div class="large-hidden-home">
-<i class="fas fa-lightbulb" aria-hidden="true"></i>  Vous pouvez basculer entre les modes sombre et clair avec le bouton dans le menu déroulant "Plus" ! 
+<i class="fas fa-lightbulb" aria-hidden="true"></i>  Vous pouvez basculer entre les modes sombre et clair dand le menu <i class="fas fa-cog" aria-hidden="true"></i>
 
 <br/>
 
-🇬🇧  This website is available in english, just click the flag in the drop-down menu "Plus"!
+🇬🇧  This website is available in english in the menu <i class="fas fa-cog" aria-hidden="true"></i>
 </div>
 
 <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>  a (dot) genthon (at) amolf (dot) nl
