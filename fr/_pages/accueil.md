@@ -3,8 +3,8 @@ permalink: /fr/
 title: "Hello !"
 seo_title: "Arthur Genthon"
 layout: single
-toc: true
-toc_label: "News"
+# toc: true
+# toc_label: "News"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -116,6 +116,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
+<!--- News -->
+
+{% include news.html %}
 
 <!--- Page footers, button switches + email -->
 

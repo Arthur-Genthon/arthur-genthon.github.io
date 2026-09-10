@@ -290,3 +290,34 @@
 }
 
 .hr-text-color{color: var(--link-color);}
+
+
+
+/* Sticky news sidebar */
+
+@include breakpoint($large) {
+  .news-sidebar {
+    position: fixed;
+    top: 5em;
+    right: 2em;
+
+    padding-top: 0;
+    margin-right: 0;
+
+    z-index: 10;
+  }
+}
+
+.news-sidebar .toc {
+  background-color: color-mix(in srgb, var(--background-color) 97%, black);
+}
+
+:root[color-mode="dark"] .news-sidebar .toc {
+  background-color: color-mix(in srgb, var(--background-color) 92%, white);
+}
+
+
+:root[color-mode="dark"] .news-sidebar .toc .nav__title {
+  background: color-mix(in srgb, var(--background-color) 75%, white);
+  color: #eee;
+}

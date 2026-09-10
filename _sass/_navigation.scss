@@ -434,3 +434,20 @@
     }
   } 
 }
+
+/*
+   News
+   ========================================================================== */
+   
+.news__list {
+  margin: 0;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+
+  li {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

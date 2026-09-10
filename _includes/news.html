@@ -1,0 +1,24 @@
+<aside class="sidebar__right news-sidebar">
+  <nav class="toc">
+    <header>
+      <h4 class="nav__title">
+        <i class="fas fa-newspaper" aria-hidden="true"></i>
+        {% if page.lang == "fr" %}
+          Actualités
+        {% else %}
+          News
+        {% endif %}
+      </h4>
+    </header>
+
+    <ul class="news__list">
+  {% for item in site.data.news %}
+    {% assign news_text = item[page.lang] | default: item.en %}
+    <li>
+      <strong>{{ item.date }}</strong>:
+      {{ news_text | markdownify | remove: "<p>" | remove: "</p>" }}
+    </li>
+  {% endfor %}
+</ul>
+  </nav>
+</aside>
