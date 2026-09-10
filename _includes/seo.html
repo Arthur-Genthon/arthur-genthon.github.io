@@ -50,7 +50,12 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+{% if page.lang == "fr" %}
+  <meta property="og:locale" content="fr_FR">
+{% else %}
+  <meta property="og:locale" content="en_US">
+{% endif %}
+
 <meta property="og:site_name" content="{{ site.title }}">
 
 <!-- Comment out to avoid having "Hello" in the google search
