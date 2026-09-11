@@ -1,0 +1,79 @@
+{% assign publication_count = site.data.publications | size %}
+
+{% for pub in site.data.publications %}
+
+  {% assign publication_number = publication_count | minus: forloop.index0 %}
+
+  <div class="pub">
+
+    <span class="mr-5">[{{ publication_number }}]</span>
+
+    <span class="pub__content">
+
+      <!-- Title -->
+      {{ pub.title }},<br>
+
+      <!-- Authors: automatically make A. Genthon bold -->
+      {{ pub.authors | replace: "A. Genthon", '<span class="pub__me">A. Genthon</span>' }},<br>
+
+
+      {% if pub.journal %}
+
+        <!-- Published article -->
+        <span class="pub__journal">{{ pub.journal }}</span>{% if pub.details %} {{ pub.details }}{% endif %}{% if pub.date %} ({{ pub.date }}){% endif %}{% if pub.note %}, <span class="pub__note">{{ pub.note }}</span>{% endif %}
+
+        <!--
+          Link logic:
+
+          OA article:
+              [journal (OA)]
+
+          Non-OA article:
+              [arXiv, journal]
+
+          If no preprint happens to be provided:
+              [journal]
+        -->
+
+        {% if pub.journal_url %}
+
+          {% if pub.oa %}
+
+            <a href="{{ pub.journal_url }}">[journal (OA)]</a>
+
+          {% elsif pub.preprint %}
+
+            <a href="{{ pub.preprint }}">[arXiv,</a>
+            <a href="{{ pub.journal_url }}">journal]</a>
+
+          {% else %}
+
+            <a href="{{ pub.journal_url }}">[journal]</a>
+
+          {% endif %}
+
+        {% endif %}
+
+
+      {% elsif pub.preprint %}
+
+        <!-- Not published yet: arXiv only -->
+
+        {% assign arxiv_id = pub.preprint | split: '/abs/' | last %}
+
+        <span class="pub__preprint">arXiv:{{ arxiv_id }}</span>
+        <a href="{{ pub.preprint }}">[arXiv]</a>
+
+      {% endif %}
+
+    </span>
+  </div>
+
+{% endfor %}
+
+
+
+
+
+
+

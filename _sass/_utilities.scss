@@ -595,18 +595,7 @@ a.reversefootnote {
 }
 
 
-/*
-   Publications
-   ========================================================================== */
-
-.pub{
-  display:flex;
-  margin-bottom:20px;
-}
-.mr-5{
-  margin-right:5px;
-}
-
+   
 
 /*
    Research boxes
@@ -777,3 +766,17 @@ figure.home-random-figure {
     }
   }
 }
+
+
+
+/*
+   Publications-> now in _publications.scss
+
+.pub{
+  display:flex;
+  margin-bottom:20px;
+}
+.mr-5{
+  margin-right:5px;
+}
+   ========================================================================== */

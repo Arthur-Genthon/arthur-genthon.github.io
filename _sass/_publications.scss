@@ -1,0 +1,40 @@
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+
+/* One publication entry */
+.pub {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+/* Space between [n] and the publication */
+.mr-5 {
+  margin-right: 5px;
+}
+
+
+/* My name */
+.pub__me {
+  font-weight: bold;
+}
+
+
+/* Journal title */
+.pub__journal {
+  font-style: italic;
+}
+
+
+/* arXiv identifier for unpublished articles */
+.pub__preprint {
+  font-style: italic;
+}
+
+
+/* Notes such as "Editors' Suggestion" */
+.pub__note {
+  text-decoration: underline;
+}

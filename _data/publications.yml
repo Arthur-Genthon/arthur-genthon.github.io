@@ -1,0 +1,84 @@
+- title: "Cell size control in bacteria is modulated through extrinsic noise, single-cell- and population-growth"
+  authors: "A. Genthon, P. Thomas"
+  preprint: "https://arxiv.org/abs/2601.05193"
+
+- title: "From noisy cell size control to population growth: When variability can be beneficial"
+  authors: "A. Genthon"
+  journal: "Physical Review E"
+  details: "111, 034407"
+  date: "2025"
+  note: "Editors' Suggestion"
+  journal_url: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.034407"
+  oa: true
+
+- title: "Non Equilibrium Transitions in a Template Copying Ensemble"
+  authors: "A. Genthon, C. D. Modes, F. Jülicher, S. W. Grill"
+  journal: "Physical Review Letters"
+  details: "134, 068402"
+  date: "2025"
+  journal_url: "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.068402"
+  oa: true
+
+- title: "Equilibrium melting probabilities of a DNA molecule with a defect: An exact solution of the Poland–Scheraga model"
+  authors: "A. Genthon, A. Dvirnas, T. Ambjörnsson"
+  journal: "The Journal of Chemical Physics"
+  details: "159, 145102"
+  date: "2023"
+  journal_url: "https://doi.org/10.1063/5.0168915"
+  oa: true
+
+- title: "Cell Lineage Statistics with Incomplete Population Trees"
+  authors: "A. Genthon, T. Nozoe, L. Peliti, D. Lacoste"
+  journal: "PRX Life"
+  details: "1, 013014"
+  date: "2023"
+  journal_url: "https://link.aps.org/doi/10.1103/PRXLife.1.013014"
+  oa: true
+
+- title: "Analytical cell size distribution: lineage-population bias and parameter inference"
+  authors: "A. Genthon"
+  journal: "Journal of the Royal Society Interface"
+  details: "19, 20220405"
+  date: "2022"
+  preprint: "https://arxiv.org/abs/2206.06146"
+  journal_url: "https://doi.org/10.1098/rsif.2022.0405"
+
+- title: "Branching processes with resetting as a model for cell division"
+  authors: "A. Genthon, R. Garcia-Garcia, D. Lacoste"
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  details: "55, 074001"
+  date: "2022"
+  preprint: "https://arxiv.org/abs/2110.15147"
+  journal_url: "https://iopscience.iop.org/article/10.1088/1751-8121/ac491a"
+
+- title: "Universal constraints on selection strength in lineage trees*"
+  authors: "A. Genthon, D. Lacoste"
+  journal: "Physical Review Research"
+  details: "3, 023187"
+  date: "2021"
+  journal_url: "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.3.023187"
+  oa: true
+
+- title: "Fluctuation relations and fitness landscapes of growing cell populations*"
+  authors: "A. Genthon, D. Lacoste"
+  journal: "Scientific Reports"
+  details: "10, 11889"
+  date: "2020"
+  journal_url: "https://www.nature.com/articles/s41598-020-68444-x"
+  oa: true
+
+- title: "The concept of velocity in the history of Brownian motion: From physics to mathematics and back"
+  authors: "A. Genthon"
+  journal: "European Physical Journal H"
+  details: "45, 49-105"
+  date: "2020"
+  preprint: "https://arxiv.org/abs/2006.05399"
+  journal_url: "https://link.springer.com/article/10.1140/epjh/e2020-10009-8"
+
+- title: "Linking lineage and population observables in biological branching processes*"
+  authors: "R. Garcia-Garcia, A. Genthon, D. Lacoste"
+  journal: "Physical Review E"
+  details: "99, 042413"
+  date: "2019"
+  preprint: "https://arxiv.org/abs/1901.06932"
+  journal_url: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.042413"
