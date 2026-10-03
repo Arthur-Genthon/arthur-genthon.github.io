@@ -299,8 +299,9 @@
 .hr-text-color{color: var(--link-color);}
 
 
-
-/* Sticky news sidebar */
+/* ==========================================================================
+   STICKY NEWS SIDEBAR
+   ========================================================================== */
 
 @include breakpoint($large) {
   .news-sidebar {
@@ -327,4 +328,11 @@
 :root[color-mode="dark"] .news-sidebar .toc .nav__title {
   background: color-mix(in srgb, var(--background-color) 75%, white);
   color: #eee;
+}
+
+.news-sidebar .news__list {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
